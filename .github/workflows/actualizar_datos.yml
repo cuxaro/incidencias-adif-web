@@ -1,9 +1,9 @@
-name: Actualizar Datos Cada 5 Minutos
+name: Actualizar Datos Cada 10 Minutos
 
 on:
   schedule:
-    # Ejecuta cada 5 minutos (modo pruebas)
-    - cron: '*/5 * * * *'
+    # Ejecuta cada 10 minutos
+    - cron: '*/10 * * * *'
   workflow_dispatch:  # Permite ejecución manual
 
 permissions:

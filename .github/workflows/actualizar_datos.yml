@@ -1,0 +1,52 @@
+name: Actualizar Datos Cada 5 Minutos
+
+on:
+  schedule:
+    # Ejecuta cada 5 minutos (modo pruebas)
+    - cron: '*/5 * * * *'
+  workflow_dispatch:  # Permite ejecución manual
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar-datos:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repositorio web
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Instalar dependencias del sistema
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+      
+      - name: Instalar dependencias Python
+        run: |
+          pip install selenium webdriver-manager beautifulsoup4 google-genai
+      
+      - name: Ejecutar actualización de datos
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python actualizar_datos.py
+      
+      - name: Commit y Push cambios
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add incidencias.json historico_incidencias.json
+          if git diff --staged --quiet; then
+            echo "No hay cambios para commitear"
+          else
+            git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          fi

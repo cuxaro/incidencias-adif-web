@@ -34,8 +34,13 @@ jobs:
       - name: Generate incidencias.json
         run: |
           # Si historico_incidencias.json está en el repo, usarlo
-          # Si no, el script fallará y puedes subirlo manualmente o usar secrets
-          python generate.py
+          # Si no, crear un JSON vacío para que la web funcione
+          if [ -f historico_incidencias.json ]; then
+            python generate.py
+          else
+            echo "⚠️ historico_incidencias.json no encontrado, creando JSON vacío"
+            echo '{"generated_at": "'$(date +"%Y-%m-%d %H:%M:%S")'", "total": 0, "incidencias": []}' > incidencias.json
+          fi
       
       - name: Setup Pages
         uses: actions/configure-pages@v4

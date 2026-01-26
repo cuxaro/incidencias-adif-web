@@ -1,0 +1,32 @@
+# Variables de entorno y secretos
+.env
+.env.local
+.env.*.local
+env.example
+
+# API Keys y secretos (por si acaso)
+*.key
+*.pem
+secrets.json
+config.json
+
+# Archivos generados y temporales
+*.pyc
+__pycache__/
+*.log
+.DS_Store
+Thumbs.db
+
+# Archivos del editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (si se añaden en el futuro)
+node_modules/
+package-lock.json
+
+# Archivos de sistema
+desktop.ini

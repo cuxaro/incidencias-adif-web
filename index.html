@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estado de incidencias ferroviarias de ADIF en tiempo real">
+    <title>Incidencias ADIF - Estado de la Red</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🚂 Incidencias ADIF</h1>
+        <p class="subtitle">Estado de la red ferroviaria en tiempo real</p>
+        <p class="last-update">Última actualización: <span id="last-update">-</span></p>
+    </header>
+
+    <main>
+        <div class="stats">
+            <div class="stat-card">
+                <span class="stat-number" id="total-incidencias">0</span>
+                <span class="stat-label">Incidencias activas</span>
+            </div>
+            <div class="stat-card red">
+                <span class="stat-number" id="total-red">0</span>
+                <span class="stat-label">Interrupciones</span>
+            </div>
+            <div class="stat-card yellow">
+                <span class="stat-number" id="total-yellow">0</span>
+                <span class="stat-label">Retrasos</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="search-input" placeholder="Buscar por línea, estación o descripción..." autocomplete="off">
+            <select id="filter-network">
+                <option value="">Todas las redes</option>
+                <option value="CERCANIAS_MADRID">Cercanías Madrid</option>
+                <option value="CERCANIAS_VALENCIA">Cercanías Valencia</option>
+                <option value="RODALIES_CATALUNYA">Rodalies Catalunya</option>
+                <option value="ALTA_VELOCIDAD">Alta Velocidad</option>
+                <option value="MEDIA_DISTANCIA">Media Distancia</option>
+                <option value="ANCHO_METRICO">Ancho Métrico</option>
+            </select>
+            <select id="filter-status">
+                <option value="">Todos los estados</option>
+                <option value="RED">Interrupciones</option>
+                <option value="YELLOW">Retrasos</option>
+                <option value="BLUE">Obras/Alternativas</option>
+                <option value="GREEN">Subsanadas</option>
+            </select>
+        </div>
+
+        <div class="table-container">
+            <table id="incidencias-table">
+                <thead>
+                    <tr>
+                        <th>Estado</th>
+                        <th>Red</th>
+                        <th>Línea</th>
+                        <th>Ubicación</th>
+                        <th>Resumen</th>
+                        <th>Severidad</th>
+                        <th>Fecha inicio</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <tr>
+                        <td colspan="7" class="loading">Cargando incidencias...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>Datos de <a href="https://www.adif.es/viajeros/estado-de-la-red" target="_blank" rel="noopener">ADIF</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

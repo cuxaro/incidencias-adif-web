@@ -1,0 +1,667 @@
+{
+    "6bbc38051d7c7bebf2a845a411f0e4f2": {
+        "id": "6bbc38051d7c7bebf2a845a411f0e4f2",
+        "descripcion": "Se encuentra interrumpida la circulación en Rubí Can Vallhrat, del núcleo de Rodalies de Catalunya. Para más información: @ rodalies Enlace externo al portal.Se abrirá en una pestaña nueva.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Interrupción en Rubí Can Vallhrat, Rodalies Catalunya",
+            "description": "Se encuentra interrumpida la circulación en Rubí Can Vallhrat, del núcleo de Rodalies de Catalunya. Para más información: @ rodalies Enlace externo al portal.Se abrirá en una pestaña nueva.",
+            "network": "RODALIES_CATALUNYA",
+            "line_affected": null,
+            "location_type": "STATION",
+            "nodes": [
+                "RUBI CAN VALLHRAT"
+            ],
+            "status": "RED",
+            "cause_category": "OTROS",
+            "severity_level": 4,
+            "start_date": null,
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": false
+        }
+    },
+    "82c98da5e9ff7e88f4cb7ae7dd075809": {
+        "id": "82c98da5e9ff7e88f4cb7ae7dd075809",
+        "descripcion": "A petición de Policía Local se encuentra interrumpida la circulación entre Caldes De Malavella y Girona, de la línea de ancho convencional Barcelona-Girona-Portbou, debido a un posible desprendimiento de tierra sobre la vía. Operarios de Adif se trasladan al lugar de la incidencia.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Interrupción entre Caldes De Malavella y Girona por desprendimiento.",
+            "description": "A petición de Policía Local se encuentra interrumpida la circulación entre Caldes De Malavella y Girona, de la línea de ancho convencional Barcelona-Girona-Portbou, debido a un posible desprendimiento de tierra sobre la vía. Operarios de Adif se trasladan al lugar de la incidencia.",
+            "network": "ANCHO_METRICO",
+            "line_affected": "Barcelona-Girona-Portbou",
+            "location_type": "SEGMENT",
+            "nodes": [
+                "CALDES DE MALAVELLA",
+                "GIRONA"
+            ],
+            "status": "RED",
+            "cause_category": "METEO",
+            "severity_level": 4,
+            "start_date": "2024-02-22",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": false
+        }
+    },
+    "d5cc98733d019ae87fd01c99936a7fde": {
+        "id": "d5cc98733d019ae87fd01c99936a7fde",
+        "descripcion": "Una vez extinguido el incendio en Cunit, se restablece la circulación en la línea R2 Sud del núcleo de Rodalies de Catalunya.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Incendio extinguido en Cunit, R2 Sud restablecida.",
+            "description": "Una vez extinguido el incendio en Cunit, se restablece la circulación en la línea R2 Sud del núcleo de Rodalies de Catalunya.",
+            "network": "RODALIES_CATALUNYA",
+            "line_affected": "R2 Sud",
+            "location_type": "LINE",
+            "nodes": [
+                "CUNIT"
+            ],
+            "status": "GREEN",
+            "cause_category": "ACCIDENTE",
+            "severity_level": 1,
+            "start_date": null,
+            "end_date": null,
+            "is_active": false,
+            "transport_backup": false
+        }
+    },
+    "d2b209eb067e357a4ecf6f3fc988796b": {
+        "id": "d2b209eb067e357a4ecf6f3fc988796b",
+        "descripcion": "Una vez subsanada la incidencia que estaba generando retrasos en el núcleo de cercanías de València, los trenes van recuperando gradualmente sus frecuencias de paso habituales.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Incidencia subsanada en Cercanías València.",
+            "description": "Una vez subsanada la incidencia que estaba generando retrasos en el núcleo de cercanías de València, los trenes van recuperando gradualmente sus frecuencias de paso habituales.",
+            "network": "CERCANIAS_VALENCIA",
+            "line_affected": null,
+            "location_type": "LINE",
+            "nodes": [],
+            "status": "GREEN",
+            "cause_category": "OTROS",
+            "severity_level": 1,
+            "start_date": null,
+            "end_date": null,
+            "is_active": false,
+            "transport_backup": false
+        }
+    },
+    "0aed1d1899063cd81c6a0d6b79d21d64": {
+        "id": "0aed1d1899063cd81c6a0d6b79d21d64",
+        "descripcion": "Está interrumpido el tráfico ferroviario entre Reus y Riba-Roja d'Ebre (tramo Reus-Zaragoza) por acumulación de agua en la infraestructura. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Interrupción Reus-Riba-Roja por acumulación de agua.",
+            "description": "Está interrumpido el tráfico ferroviario entre Reus y Riba-Roja d'Ebre (tramo Reus-Zaragoza) por acumulación de agua en la infraestructura. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros.",
+            "network": "MEDIA_DISTANCIA",
+            "line_affected": "Reus-Zaragoza",
+            "location_type": "SEGMENT",
+            "nodes": [
+                "REUS",
+                "RIBA-ROJA D'EBRE"
+            ],
+            "status": "RED",
+            "cause_category": "METEO",
+            "severity_level": 4,
+            "start_date": "2024-10-26",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    },
+    "f8594bffc85a721d665d24ab8d8d78b6": {
+        "id": "f8594bffc85a721d665d24ab8d8d78b6",
+        "descripcion": "Por condiciones meteorológicas adversas, está suspendido el servicio entre Ourense y Santiago de Compostela (red convencional) y entre Ourense y Vigo-Guixar.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Servicio suspendido Ourense-Santiago y Ourense-Vigo por meteo",
+            "description": "Por condiciones meteorológicas adversas, está suspendido el servicio entre Ourense y Santiago de Compostela (red convencional) y entre Ourense y Vigo-Guixar.",
+            "network": "MEDIA_DISTANCIA",
+            "line_affected": null,
+            "location_type": "SEGMENT",
+            "nodes": [
+                "OURENSE-EMPALME",
+                "SANTIAGO DE COMPOSTELA"
+            ],
+            "status": "RED",
+            "cause_category": "METEO",
+            "severity_level": 5,
+            "start_date": "2024-10-26",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": false
+        }
+    },
+    "520eedc7ad25d88806bf5b3e840223a4": {
+        "id": "520eedc7ad25d88806bf5b3e840223a4",
+        "descripcion": "Por condiciones meteorológicas adversas está interrumpido el servicio en la línea de ancho métrico Santader-Bilbao entre Orejo y Carranza.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Interrupción Santander-Bilbao por meteo entre Orejo y Carranza",
+            "description": "Por condiciones meteorológicas adversas está interrumpido el servicio en la línea de ancho métrico Santader-Bilbao entre Orejo y Carranza.",
+            "network": "ANCHO_METRICO",
+            "line_affected": "Santander-Bilbao",
+            "location_type": "SEGMENT",
+            "nodes": [
+                "OREJO",
+                "CARRANZA"
+            ],
+            "status": "RED",
+            "cause_category": "METEO",
+            "severity_level": 4,
+            "start_date": "2024-01-03",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": false
+        }
+    },
+    "17ace3ff13fc4d948c7c22cd1e714865": {
+        "id": "17ace3ff13fc4d948c7c22cd1e714865",
+        "descripcion": "Por condiciones meteorológicas adversas se encuentra suspendida la circulación en la línea de ancho métrico Ferrol-Oviedo/Gijón y en la de Oviedo-Santander entre Llanes y El Berrón. Para esta última hay un plan alternativo por carretera.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Circulación suspendida Ferrol-Oviedo/Gijón y Llanes-El Berrón.",
+            "description": "Por condiciones meteorológicas adversas se encuentra suspendida la circulación en la línea de ancho métrico Ferrol-Oviedo/Gijón y en la de Oviedo-Santander entre Llanes y El Berrón. Para esta última hay un plan alternativo por carretera.",
+            "network": "ANCHO_METRICO",
+            "line_affected": "Ferrol-Oviedo/Gijón y Oviedo-Santander",
+            "location_type": "SEGMENT",
+            "nodes": [
+                "LLANES",
+                "EL BERRON"
+            ],
+            "status": "RED",
+            "cause_category": "METEO",
+            "severity_level": 4,
+            "start_date": "2024-10-26",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    },
+    "9fb75b12feec98d55c1a6f66d18dcbd2": {
+        "id": "9fb75b12feec98d55c1a6f66d18dcbd2",
+        "descripcion": "Está interrumpida la circulación en la línea R1 de rodalies de Catalunya entre Blanes y Maçanet-Massanes por un desprendimiento de tierras. Personal de Adif está trabajando para restablecer la circulación lo antes posible. Se ha establecido un plan alternativo de transporte con transbordos por carretera para garantizar la movilidad de los viajeros.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Interrupción R1 Blanes-Maçanet por desprendimiento.",
+            "description": "Está interrumpida la circulación en la línea R1 de rodalies de Catalunya entre Blanes y Maçanet-Massanes por un desprendimiento de tierras. Personal de Adif está trabajando para restablecer la circulación lo antes posible. Se ha establecido un plan alternativo de transporte con transbordos por carretera para garantizar la movilidad de los viajeros.",
+            "network": "RODALIES_CATALUNYA",
+            "line_affected": "R1",
+            "location_type": "SEGMENT",
+            "nodes": [
+                "BLANES",
+                "MASSANET-MASSANES"
+            ],
+            "status": "RED",
+            "cause_category": "METEO",
+            "severity_level": 4,
+            "start_date": "2024-01-03",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    },
+    "08f35c6a5740745163b99445bdb73307": {
+        "id": "08f35c6a5740745163b99445bdb73307",
+        "descripcion": "Se están produciendo retrasos en la línea de alta velocidad Madrid-Barcelona y Madrid-Valencia por el establecimiento de limitaciones temporales de velocidad en distintos puntos.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Retrasos en AVE Madrid-Barcelona y Madrid-Valencia",
+            "description": "Se están produciendo retrasos en la línea de alta velocidad Madrid-Barcelona y Madrid-Valencia por el establecimiento de limitaciones temporales de velocidad en distintos puntos.",
+            "network": "ALTA_VELOCIDAD",
+            "line_affected": null,
+            "location_type": "LINE",
+            "nodes": [],
+            "status": "YELLOW",
+            "cause_category": "INFRAESTRUCTURA",
+            "severity_level": 2,
+            "start_date": null,
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": false
+        }
+    },
+    "fd5b8d1519b379e74f2f8a38e39ca26b": {
+        "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
+        "descripcion": "Personal y equipos de Adif están trabajando sobre el terreno, en coordinación con los servicios de emergencia y empresas ferroviarias, en el accidente que tuvo lugar el 18 de enero en Adamuz (Córdoba). Una vez sea posible retirar los trenes afectados, Adif evaluará los daños sobre la infraestructura y movilizará todos los recursos técnicos y humanos necesarios para restablecer la circulación. Mientras tanto, se encuentra interrumpido el servicio de Alta Velocidad entre Madrid y Andalucía (conexiones con Córdoba, Sevilla, Málaga, Granada, Huelva, Cádiz y Algeciras). Información sobre trenes, servicios comerciales y planes alternativos de transporte en: @InfoRenfe, @iryo_eu y @Ouigo_es. Los servicios comerciales entre Madrid con Toledo, Ciudad Real y Puertollano se prestan con normalidad.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Accidente en Adamuz (Córdoba). Interrupción AV Madrid-Andalucía.",
+            "description": "Personal y equipos de Adif están trabajando sobre el terreno, en coordinación con los servicios de emergencia y empresas ferroviarias, en el accidente que tuvo lugar el 18 de enero en Adamuz (Córdoba). Una vez sea posible retirar los trenes afectados, Adif evaluará los daños sobre la infraestructura y movilizará todos los recursos técnicos y humanos necesarios para restablecer la circulación. Mientras tanto, se encuentra interrumpido el servicio de Alta Velocidad entre Madrid y Andalucía (conexiones con Córdoba, Sevilla, Málaga, Granada, Huelva, Cádiz y Algeciras). Información sobre trenes, servicios comerciales y planes alternativos de transporte en: @InfoRenfe, @iryo_eu y @Ouigo_es. Los servicios comerciales entre Madrid con Toledo, Ciudad Real y Puertollano se prestan con normalidad.",
+            "network": "ALTA_VELOCIDAD",
+            "line_affected": null,
+            "location_type": "LINE",
+            "nodes": [],
+            "status": "RED",
+            "cause_category": "ACCIDENTE",
+            "severity_level": 5,
+            "start_date": "2024-01-18",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    },
+    "933a0d3a7d46adeaf26baeab89c820bb": {
+        "id": "933a0d3a7d46adeaf26baeab89c820bb",
+        "descripcion": "Se encuentra interrumpida la circulación entre Sant Sadurní d'Anoia y Martorell Central, del núcleo de rodalies de Catalunya, provocado por el arrollamiento de un muro próximo a la infraestructura debido al temporal.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Interrupción entre Sant Sadurní y Martorell por temporal.",
+            "description": "Se encuentra interrumpida la circulación entre Sant Sadurní d'Anoia y Martorell Central, del núcleo de rodalies de Catalunya, provocado por el arrollamiento de un muro próximo a la infraestructura debido al temporal.",
+            "network": "RODALIES_CATALUNYA",
+            "line_affected": null,
+            "location_type": "SEGMENT",
+            "nodes": [
+                "SANT SADURNI D'ANOIA",
+                "MARTORELL CENTRAL"
+            ],
+            "status": "RED",
+            "cause_category": "METEO",
+            "severity_level": 4,
+            "start_date": null,
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": null
+        }
+    },
+    "75562d8141013ebb71da4a3f9af66124": {
+        "id": "75562d8141013ebb71da4a3f9af66124",
+        "descripcion": "Por obras de renovación integral de la catenaria, los días 31 de enero y 1 de febrero estará interrumpida la circulación entre Figueres y Portbou. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Más información en: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Interrupción Figueres-Portbou por obras. Plan alternativo.",
+            "description": "Por obras de renovación integral de la catenaria, los días 31 de enero y 1 de febrero estará interrumpida la circulación entre Figueres y Portbou. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Más información en: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe.",
+            "network": "RODALIES_CATALUNYA",
+            "line_affected": null,
+            "location_type": "SEGMENT",
+            "nodes": [
+                "FIGUERES",
+                "PORTBOU"
+            ],
+            "status": "BLUE",
+            "cause_category": "OBRAS",
+            "severity_level": 3,
+            "start_date": "2024-01-31",
+            "end_date": "2024-02-01",
+            "is_active": false,
+            "transport_backup": true
+        }
+    },
+    "8a08ca3f9f0f451cba22916957bb2db2": {
+        "id": "8a08ca3f9f0f451cba22916957bb2db2",
+        "descripcion": "Por obras de mejora de las estaciones de Selgua y Marcén-Poleñino, los días 31 de enero y 01 de febrero estará interrumpida la circulación por la línea de ancho convencional entre las estaciones de Zaragoza Delicias y Lleida Pirineus. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Interrupción Zaragoza-Lleida por obras. Plan alternativo.",
+            "description": "Por obras de mejora de las estaciones de Selgua y Marcén-Poleñino, los días 31 de enero y 01 de febrero estará interrumpida la circulación por la línea de ancho convencional entre las estaciones de Zaragoza Delicias y Lleida Pirineus. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+            "network": "MEDIA_DISTANCIA",
+            "line_affected": null,
+            "location_type": "SEGMENT",
+            "nodes": [
+                "ZARAGOZA-DELICIAS",
+                "LLEIDA-PIRINEUS"
+            ],
+            "status": "RED",
+            "cause_category": "OBRAS",
+            "severity_level": 4,
+            "start_date": "2024-01-31",
+            "end_date": "2024-02-01",
+            "is_active": false,
+            "transport_backup": true
+        }
+    },
+    "807fd1196bdea5628e682b57a6e9e226": {
+        "id": "807fd1196bdea5628e682b57a6e9e226",
+        "descripcion": "Por obras de mejora en la infraestructura en la estación de Parla, entre el 17 de enero y el 27 de febrero, la frecuencia de trenes de la línea C4 del núcleo de cercanías de Madrid entre Parla y Getafe-Sector 3 se verá modificada. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @CercaniasMadrid.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Obras en Parla (C4 Madrid) modifican frecuencia trenes.",
+            "description": "Por obras de mejora en la infraestructura en la estación de Parla, entre el 17 de enero y el 27 de febrero, la frecuencia de trenes de la línea C4 del núcleo de cercanías de Madrid entre Parla y Getafe-Sector 3 se verá modificada. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @CercaniasMadrid.",
+            "network": "CERCANIAS_MADRID",
+            "line_affected": "C4",
+            "location_type": "SEGMENT",
+            "nodes": [
+                "PARLA",
+                "GETAFE SECTOR 3"
+            ],
+            "status": "BLUE",
+            "cause_category": "OBRAS",
+            "severity_level": 3,
+            "start_date": "2024-01-17",
+            "end_date": "2024-02-27",
+            "is_active": true,
+            "transport_backup": false
+        }
+    },
+    "d6b08040d747d49a6bb770a594eaa8d3": {
+        "id": "d6b08040d747d49a6bb770a594eaa8d3",
+        "descripcion": "Adif ha puesto en servicio el tramo Loriguilla-Reva -Buñol de la línea C3 del núcleo de cercanías de València, que se encontraba afectado por la dana de octubre de 2024. Adif continúa trabajando en la recuperación y modernización del resto de infraestructuras de esta línea.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Adif pone en servicio tramo Loriguilla-Reva -Buñol (C3)",
+            "description": "Adif ha puesto en servicio el tramo Loriguilla-Reva -Buñol de la línea C3 del núcleo de cercanías de València, que se encontraba afectado por la dana de octubre de 2024. Adif continúa trabajando en la recuperación y modernización del resto de infraestructuras de esta línea.",
+            "network": "CERCANIAS_VALENCIA",
+            "line_affected": "C3",
+            "location_type": "SEGMENT",
+            "nodes": [
+                "LORIGUILLA-REVA",
+                "BUÑOL"
+            ],
+            "status": "GREEN",
+            "cause_category": "METEO",
+            "severity_level": 1,
+            "start_date": "2024-10-01",
+            "end_date": null,
+            "is_active": false,
+            "transport_backup": false
+        }
+    },
+    "c93b05a63efa140f30269dd416d6686c": {
+        "id": "c93b05a63efa140f30269dd416d6686c",
+        "descripcion": "Por obras de mejora integral que Adif está realizando en Montcada-Bifurcació, se encuentra suspendido el servicio entre las estaciones Cerdanyola del Vallès y Cerdanyola Universidad. Para más información: rodalies.gencat.cat y @rodalies.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Servicio suspendido entre Cerdanyola V. y Cerdanyola U. por obras.",
+            "description": "Por obras de mejora integral que Adif está realizando en Montcada-Bifurcació, se encuentra suspendido el servicio entre las estaciones Cerdanyola del Vallès y Cerdanyola Universidad. Para más información: rodalies.gencat.cat y @rodalies.",
+            "network": "RODALIES_CATALUNYA",
+            "line_affected": null,
+            "location_type": "SEGMENT",
+            "nodes": [
+                "CERDANYOLA DEL VALLES",
+                "CERDANYOLA UNIVERSITAT"
+            ],
+            "status": "RED",
+            "cause_category": "OBRAS",
+            "severity_level": 4,
+            "start_date": "2024-10-26",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": false
+        }
+    },
+    "d5497d8e48aa6da7da13825e5d822e83": {
+        "id": "d5497d8e48aa6da7da13825e5d822e83",
+        "descripcion": "Por obras de mejora en la infraestructura entre las estaciones de Astillero y Orejo, a partir del día 3 de noviembre de 2025 se interrumpirá la circulación de trenes en la línea C3 de ancho métrico del núcleo de cercanías de Cantabria (Santander-Liérganes) entre Astillero y Liérganes. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Obras en C3 Cantabria: Interrupción Astillero-Liérganes.",
+            "description": "Por obras de mejora en la infraestructura entre las estaciones de Astillero y Orejo, a partir del día 3 de noviembre de 2025 se interrumpirá la circulación de trenes en la línea C3 de ancho métrico del núcleo de cercanías de Cantabria (Santander-Liérganes) entre Astillero y Liérganes. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+            "network": "ANCHO_METRICO",
+            "line_affected": "C3",
+            "location_type": "SEGMENT",
+            "nodes": [
+                "ASTILLERO",
+                "OREJO"
+            ],
+            "status": "RED",
+            "cause_category": "OBRAS",
+            "severity_level": 4,
+            "start_date": "2025-11-03",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    },
+    "54f88bc7d3b6ee2a0ba32d75d1f01ee0": {
+        "id": "54f88bc7d3b6ee2a0ba32d75d1f01ee0",
+        "descripcion": "Por obras de remodelación de las estaciones y duplicación de vía entre Parets del Vallès y La Garriga, desde el día 7 de octubre de 2025 está interrumpida la circulación en la línea R3 de Rodalies de Catalunya entre ambas estaciones. Se ha establecido un plan alternativo de transporte con transbordos por carretera para garantizar la movilidad de los viajeros. Para más información: www.rodalies.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @rod3cat.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Interrupción R3 por obras entre Parets y La Garriga",
+            "description": "Por obras de remodelación de las estaciones y duplicación de vía entre Parets del Vallès y La Garriga, desde el día 7 de octubre de 2025 está interrumpida la circulación en la línea R3 de Rodalies de Catalunya entre ambas estaciones. Se ha establecido un plan alternativo de transporte con transbordos por carretera para garantizar la movilidad de los viajeros. Para más información: www.rodalies.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @rod3cat.",
+            "network": "RODALIES_CATALUNYA",
+            "line_affected": "R3",
+            "location_type": "SEGMENT",
+            "nodes": [
+                "PARETS DEL VALLES",
+                "LA GARRIGA"
+            ],
+            "status": "RED",
+            "cause_category": "OBRAS",
+            "severity_level": 4,
+            "start_date": "2025-10-07",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    },
+    "ecb24693e76ae68084acb958dbab358e": {
+        "id": "ecb24693e76ae68084acb958dbab358e",
+        "descripcion": "Por obras de mejora de la infraestructura, desde el 19 de septiembre de 2025 está interrumpida la circulación entre La Hiniesta y Puebla de Sanabria, afectando a los trenes de la línea de ancho convencional que circulan entre Zamora y Ourense. Se ha establecido un plan alternativo de transporte con transbordos por carretera para los viajeros afectados. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Interrupción por obras entre La Hiniesta y Puebla de Sanabria.",
+            "description": "Por obras de mejora de la infraestructura, desde el 19 de septiembre de 2025 está interrumpida la circulación entre La Hiniesta y Puebla de Sanabria, afectando a los trenes de la línea de ancho convencional que circulan entre Zamora y Ourense. Se ha establecido un plan alternativo de transporte con transbordos por carretera para los viajeros afectados. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+            "network": "ANCHO_METRICO",
+            "line_affected": "Zamora-Ourense",
+            "location_type": "SEGMENT",
+            "nodes": [
+                "LA HINIESTA",
+                "PUEBLA DE SANABRIA"
+            ],
+            "status": "RED",
+            "cause_category": "OBRAS",
+            "severity_level": 4,
+            "start_date": "2025-09-19",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    },
+    "93c7b1fadf4e1e10b1ef1921e13e7006": {
+        "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
+        "descripcion": "Por obras de mejora en la estación, desde el 6 de mayo de 2025 los trenes de ancho convencional que tienen como origen/destino o paso la estación de València Joaquín Sorolla iniciarán/finalizarán su recorrido o tendrán parada en València-Estació del Nord. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Obras en València Joaquín Sorolla desde 2025",
+            "description": "Por obras de mejora en la estación, desde el 6 de mayo de 2025 los trenes de ancho convencional que tienen como origen/destino o paso la estación de València Joaquín Sorolla iniciarán/finalizarán su recorrido o tendrán parada en València-Estació del Nord. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+            "network": "MEDIA_DISTANCIA",
+            "line_affected": null,
+            "location_type": "STATION",
+            "nodes": [
+                "VALENCIA-JOAQUIN SOROLLA",
+                "VALENCIA-ESTACIO DEL NORD"
+            ],
+            "status": "BLUE",
+            "cause_category": "OBRAS",
+            "severity_level": 3,
+            "start_date": "2025-05-06",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": false
+        }
+    },
+    "e7e7c67e5310c69ac776d4d84a9155c0": {
+        "id": "e7e7c67e5310c69ac776d4d84a9155c0",
+        "descripcion": "Por obras de mejora en la infraestructura en la línea de ancho convencional que une Madrid y Zaragoza entre Guadalajara y Plasencia de Jalón, desde el 1 de abril de 2025 está interrumpido el tráfico ferroviario en esta línea. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Más información en: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Obras en línea Madrid-Zaragoza. Plan alternativo.",
+            "description": "Por obras de mejora en la infraestructura en la línea de ancho convencional que une Madrid y Zaragoza entre Guadalajara y Plasencia de Jalón, desde el 1 de abril de 2025 está interrumpido el tráfico ferroviario en esta línea. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Más información en: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+            "network": "MEDIA_DISTANCIA",
+            "line_affected": null,
+            "location_type": "SEGMENT",
+            "nodes": [
+                "GUADALAJARA",
+                "PLASENCIA DE JALON"
+            ],
+            "status": "RED",
+            "cause_category": "OBRAS",
+            "severity_level": 4,
+            "start_date": "2025-04-01",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    },
+    "0dc376e78ae04b6849e846b9ed96d722": {
+        "id": "0dc376e78ae04b6849e846b9ed96d722",
+        "descripcion": "Desde el 24 de marzo de 2025 está interrumpida la circulación entre Xàtiva y Alcoi para la renovación integral de la línea. Se ha puesto en servicio un plan alternativo de transporte con transbordos por carretera para garantizar la movilidad de los viajeros. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Interrupción Xàtiva - Alcoi. Plan alternativo desde 2025-03-24",
+            "description": "Desde el 24 de marzo de 2025 está interrumpida la circulación entre Xàtiva y Alcoi para la renovación integral de la línea. Se ha puesto en servicio un plan alternativo de transporte con transbordos por carretera para garantizar la movilidad de los viajeros. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+            "network": "MEDIA_DISTANCIA",
+            "line_affected": null,
+            "location_type": "SEGMENT",
+            "nodes": [
+                "XATIVA",
+                "ALCOI"
+            ],
+            "status": "RED",
+            "cause_category": "OBRAS",
+            "severity_level": 4,
+            "start_date": "2025-03-24",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    },
+    "f02c8e2a55f8abbf9f3d9aedac19747a": {
+        "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
+        "descripcion": "Por obras de mejora en la infraestructura entre Palencia y Venta de Baños, desde el 1 de agosto de 2024 los viajeros de las relaciones de media distancia son transbordados por carretera. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Obras Palencia-Venta de Baños, transbordo por carretera",
+            "description": "Por obras de mejora en la infraestructura entre Palencia y Venta de Baños, desde el 1 de agosto de 2024 los viajeros de las relaciones de media distancia son transbordados por carretera. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+            "network": "MEDIA_DISTANCIA",
+            "line_affected": null,
+            "location_type": "SEGMENT",
+            "nodes": [
+                "PALENCIA",
+                "VENTA DE BAÑOS"
+            ],
+            "status": "BLUE",
+            "cause_category": "OBRAS",
+            "severity_level": 3,
+            "start_date": "2024-08-01",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    },
+    "f365b90ed0165cd355d71a95caaf87ba": {
+        "id": "f365b90ed0165cd355d71a95caaf87ba",
+        "descripcion": "Desde el 6 de mayo de 2024 Renfe presta un servicio alternativo de transporte por carretera en la línea C9 del núcleo de cercanías de Madrid (Cercedilla-Cotos) para la realización de obras de renovación integral de la infraestructura por parte de Adif, a partir de junio. Más información: https://www.renfe.com/es/es/grupo-renfe/comunicacion/renfe-al-dia/avisos/plan-transporte-alternativo-carretera-cierre-linea-c9-cercanias-obras Enlace externo al portal.Se abrirá en una pestaña nueva.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Servicio alternativo por carretera en C9 Madrid por obras.",
+            "description": "Desde el 6 de mayo de 2024 Renfe presta un servicio alternativo de transporte por carretera en la línea C9 del núcleo de cercanías de Madrid (Cercedilla-Cotos) para la realización de obras de renovación integral de la infraestructura por parte de Adif, a partir de junio. Más información: https://www.renfe.com/es/es/grupo-renfe/comunicacion/renfe-al-dia/avisos/plan-transporte-alternativo-carretera-cierre-linea-c9-cercanias-obras Enlace externo al portal.Se abrirá en una pestaña nueva.",
+            "network": "CERCANIAS_MADRID",
+            "line_affected": "C9",
+            "location_type": "LINE",
+            "nodes": [],
+            "status": "BLUE",
+            "cause_category": "OBRAS",
+            "severity_level": 3,
+            "start_date": "2024-05-06",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    },
+    "7c42e9b26e09f5c313afdecd1d91cf75": {
+        "id": "7c42e9b26e09f5c313afdecd1d91cf75",
+        "descripcion": "Por obras para la integración de la alta velocidad en Almería, desde el 5 de marzo de 2024 permanece interrumpido el tráfico ferroviario entre esta y Huércal-Viator. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. . Más información: https://www.adifaltavelocidad.es/w/hu%C3%A9rcal-viator-se-convierte-en-punto-de-transferencia-de-viajeros-desde-el-5-de-marzo-para-los-trenes-con-origen-y-destino-almer%C3%ADa?pageFromPlid=265 Enlace externo al portal.Se abrirá en una pestaña nueva.",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Obras en Almería. Interrupción entre Almería y Huércal-Viator.",
+            "description": "Por obras para la integración de la alta velocidad en Almería, desde el 5 de marzo de 2024 permanece interrumpido el tráfico ferroviario entre esta y Huércal-Viator. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. . Más información: https://www.adifaltavelocidad.es/w/hu%C3%A9rcal-viator-se-convierte-en-punto-de-transferencia-de-viajeros-desde-el-5-de-marzo-para-los-trenes-con-origen-y-destino-almer%C3%ADa?pageFromPlid=265 Enlace externo al portal.Se abrirá en una pestaña nueva.",
+            "network": "ALTA_VELOCIDAD",
+            "line_affected": null,
+            "location_type": "SEGMENT",
+            "nodes": [
+                "ALMERIA",
+                "HUERCAL-VIATOR"
+            ],
+            "status": "RED",
+            "cause_category": "OBRAS",
+            "severity_level": 4,
+            "start_date": "2024-03-05",
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    },
+    "56e390832708d4b6e576c00dbd4bff44": {
+        "id": "56e390832708d4b6e576c00dbd4bff44",
+        "descripcion": "Por obras de construcción de la línea de alta velocidad Murcia-Almería, el recorrido Murcia-Lorca-Águilas se realiza por carretera, al igual que el trayecto Archena-Murcia-Cartagena de las relaciones con origen o destino Madrid por ancho convencional. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+        "primera_vez_visto": "2026-01-26 14:08:42",
+        "estado": "Activa",
+        "analisis_ia": {
+            "id": null,
+            "summary": "Obras Murcia-Almería: Afectación en Murcia-Lorca-Águilas y Archena-Cartagena.",
+            "description": "Por obras de construcción de la línea de alta velocidad Murcia-Almería, el recorrido Murcia-Lorca-Águilas se realiza por carretera, al igual que el trayecto Archena-Murcia-Cartagena de las relaciones con origen o destino Madrid por ancho convencional. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+            "network": "ALTA_VELOCIDAD",
+            "line_affected": null,
+            "location_type": "SEGMENT",
+            "nodes": [
+                "MURCIA",
+                "LORCA",
+                "AGUILAS",
+                "ARCHENA",
+                "MURCIA",
+                "CARTAGENA"
+            ],
+            "status": "BLUE",
+            "cause_category": "OBRAS",
+            "severity_level": 3,
+            "start_date": null,
+            "end_date": null,
+            "is_active": true,
+            "transport_backup": true
+        }
+    }
+}

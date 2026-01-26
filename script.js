@@ -24,7 +24,8 @@ const statusNames = {
 // Cargar datos
 async function cargarDatos() {
     try {
-        const response = await fetch('incidencias.json');
+        // Cache busting: añadir timestamp para forzar descarga de versión actualizada
+        const response = await fetch(`incidencias.json?v=${Date.now()}`);
         const data = await response.json();
         
         incidenciasData = data.incidencias || [];

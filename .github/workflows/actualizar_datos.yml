@@ -49,4 +49,5 @@ jobs:
           else
             git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M:%S UTC')"
             git push
+            echo "✅ Cambios pusheados - el deploy se ejecutará automáticamente"
           fi

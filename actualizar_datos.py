@@ -249,19 +249,20 @@ def generar_incidencias_web(historico):
         x.get("start_date") or ""
     ))
     
-    # Crear objeto final con metadata
+    # Crear objeto final con metadata - SIEMPRE actualizar generated_at
     resultado = {
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "total": len(incidencias_activas),
         "incidencias": incidencias_activas
     }
     
-    # Guardar en la misma carpeta
+    # Guardar SIEMPRE (incluso si los datos son iguales, el timestamp cambia)
     with open(ARCHIVO_WEB_JSON, 'w', encoding='utf-8') as f:
         json.dump(resultado, f, ensure_ascii=False, indent=2)
     
     print(f"✅ Generado {ARCHIVO_WEB_JSON}")
     print(f"   - Total incidencias activas: {len(incidencias_activas)}")
+    print(f"   - Timestamp: {resultado['generated_at']}")
     
     return resultado
 

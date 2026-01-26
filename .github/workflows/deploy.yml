@@ -26,22 +26,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      
-      - name: Generate incidencias.json
-        run: |
-          # Si historico_incidencias.json está en el repo, usarlo
-          # Si no, crear un JSON vacío para que la web funcione
-          if [ -f historico_incidencias.json ]; then
-            python generate.py
-          else
-            echo "⚠️ historico_incidencias.json no encontrado, creando JSON vacío"
-            echo '{"generated_at": "'$(date +"%Y-%m-%d %H:%M:%S")'", "total": 0, "incidencias": []}' > incidencias.json
-          fi
-      
       - name: Setup Pages
         uses: actions/configure-pages@v4
       

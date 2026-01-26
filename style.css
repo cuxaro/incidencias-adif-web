@@ -269,6 +269,14 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Descripción cell */
+.descripcion-cell {
+    max-width: 300px;
+    word-wrap: break-word;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     header h1 {

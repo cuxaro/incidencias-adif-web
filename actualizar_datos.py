@@ -228,6 +228,7 @@ def generar_incidencias_web(historico):
                     "id": id_inc,
                     "summary": analisis.get("summary", ""),
                     "description": analisis.get("description", data.get("descripcion", "")),
+                    "descripcion_original": data.get("descripcion", ""),  # Descripción original de ADIF
                     "network": analisis.get("network", "OTROS"),
                     "line_affected": analisis.get("line_affected"),
                     "location_type": analisis.get("location_type", "LINE"),

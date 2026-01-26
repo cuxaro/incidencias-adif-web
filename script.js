@@ -52,7 +52,7 @@ async function cargarDatos() {
     } catch (error) {
         console.error('Error cargando datos:', error);
         document.getElementById('table-body').innerHTML = 
-            '<tr><td colspan="7" class="no-results">Error cargando datos</td></tr>';
+            '<tr><td colspan="8" class="no-results">Error cargando datos</td></tr>';
     }
 }
 
@@ -72,7 +72,7 @@ function renderizarTabla() {
     const tbody = document.getElementById('table-body');
     
     if (incidenciasFiltradas.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="7" class="no-results">No hay incidencias que coincidan con los filtros</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="8" class="no-results">No hay incidencias que coincidan con los filtros</td></tr>';
         return;
     }
     
@@ -84,6 +84,7 @@ function renderizarTabla() {
         const nodes = inc.nodes && inc.nodes.length > 0 ? inc.nodes.join(', ') : '-';
         const line = inc.line_affected || '-';
         const startDate = inc.start_date || '-';
+        const descripcionOriginal = inc.descripcion_original || inc.description || '-';
         
         return `
             <tr>
@@ -92,6 +93,7 @@ function renderizarTabla() {
                 <td>${line}</td>
                 <td>${nodes}</td>
                 <td>${inc.summary || inc.description.substring(0, 100)}</td>
+                <td class="descripcion-cell">${descripcionOriginal}</td>
                 <td><span class="severity severity-${severity}">
                     <span class="severity-dot"></span>
                     <span class="severity-dot"></span>

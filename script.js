@@ -1,6 +1,8 @@
 // Datos globales
 let incidenciasData = [];
 let incidenciasFiltradas = [];
+let ultimaFechaConocida = null; // Para detectar cambios
+let intervaloActualizacion = null; // Referencia al intervalo
 
 // Mapeo de redes
 const networkNames = {
@@ -31,8 +33,12 @@ async function cargarDatos() {
         incidenciasData = data.incidencias || [];
         incidenciasFiltradas = [...incidenciasData];
         
-        // Actualizar fecha
-        document.getElementById('last-update').textContent = data.generated_at || '-';
+        // Actualizar fecha - convertir a hora de España (CET/CEST)
+        const fechaEspana = convertirAHoraEspana(data.generated_at);
+        document.getElementById('last-update').textContent = fechaEspana || '-';
+        
+        // Guardar fecha para comparación futura
+        ultimaFechaConocida = data.generated_at;
         
         // Actualizar estadísticas
         actualizarEstadisticas();
@@ -147,5 +153,88 @@ function configurarFiltros() {
     filterStatus.addEventListener('change', aplicarFiltros);
 }
 
+// Convertir timestamp a hora de España (CET/CEST)
+function convertirAHoraEspana(timestamp) {
+    if (!timestamp) return '-';
+    
+    try {
+        // Parsear el timestamp (formato: "YYYY-MM-DD HH:MM:SS")
+        // Asumimos que viene en UTC (desde GitHub Actions)
+        const [fecha, hora] = timestamp.split(' ');
+        const [year, month, day] = fecha.split('-').map(Number);
+        const [hours, minutes, seconds] = hora.split(':').map(Number);
+        
+        // Crear fecha en UTC
+        const fechaUTC = new Date(Date.UTC(year, month - 1, day, hours, minutes, seconds || 0));
+        
+        // Convertir a hora de España usando Intl.DateTimeFormat
+        const formatter = new Intl.DateTimeFormat('es-ES', {
+            timeZone: 'Europe/Madrid',
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: false
+        });
+        
+        // Formatear la fecha
+        const partes = formatter.formatToParts(fechaUTC);
+        const fechaEspana = {
+            year: partes.find(p => p.type === 'year').value,
+            month: partes.find(p => p.type === 'month').value,
+            day: partes.find(p => p.type === 'day').value,
+            hour: partes.find(p => p.type === 'hour').value,
+            minute: partes.find(p => p.type === 'minute').value,
+            second: partes.find(p => p.type === 'second').value
+        };
+        
+        return `${fechaEspana.year}-${fechaEspana.month}-${fechaEspana.day} ${fechaEspana.hour}:${fechaEspana.minute}:${fechaEspana.second}`;
+    } catch (error) {
+        console.error('Error convirtiendo hora:', error);
+        return timestamp; // Devolver original si hay error
+    }
+}
+
+// Verificar si hay actualizaciones disponibles
+async function verificarActualizaciones() {
+    try {
+        // Hacer fetch solo para obtener el generated_at sin cache
+        const response = await fetch(`incidencias.json?v=${Date.now()}`);
+        const data = await response.json();
+        
+        // Comparar con la fecha conocida
+        if (ultimaFechaConocida && data.generated_at !== ultimaFechaConocida) {
+            console.log('🔄 Nueva actualización detectada, recargando datos...');
+            // Recargar todos los datos
+            await cargarDatos();
+        }
+    } catch (error) {
+        console.error('Error verificando actualizaciones:', error);
+    }
+}
+
+// Iniciar verificación periódica cada 10 minutos
+function iniciarVerificacionPeriodica() {
+    // Verificar cada 10 minutos (600000 ms)
+    intervaloActualizacion = setInterval(verificarActualizaciones, 10 * 60 * 1000);
+    console.log('✅ Verificación automática iniciada (cada 10 minutos)');
+}
+
+// Detener verificación periódica (útil si se necesita)
+function detenerVerificacionPeriodica() {
+    if (intervaloActualizacion) {
+        clearInterval(intervaloActualizacion);
+        intervaloActualizacion = null;
+        console.log('⏸️ Verificación automática detenida');
+    }
+}
+
 // Inicializar cuando carga la página
-document.addEventListener('DOMContentLoaded', cargarDatos);
+document.addEventListener('DOMContentLoaded', () => {
+    cargarDatos().then(() => {
+        // Iniciar verificación periódica después de cargar los datos iniciales
+        iniciarVerificacionPeriodica();
+    });
+});

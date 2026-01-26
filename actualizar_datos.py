@@ -249,9 +249,9 @@ def generar_incidencias_web(historico):
         x.get("start_date") or ""
     ))
     
-    # Crear objeto final con metadata - SIEMPRE actualizar generated_at
+    # Crear objeto final con metadata - SIEMPRE actualizar generated_at en UTC
     resultado = {
-        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "generated_at": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"),
         "total": len(incidencias_activas),
         "incidencias": incidencias_activas
     }

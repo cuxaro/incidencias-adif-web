@@ -17,6 +17,12 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Scripts de desarrollo/debugging (no necesarios en la web pública)
+*.ps1
+*.bat
+*.sh
+trigger-workflow.*
+
 # Archivos del editor
 .vscode/
 .idea/

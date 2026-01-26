@@ -26,8 +26,16 @@ const statusNames = {
 // Cargar datos
 async function cargarDatos() {
     try {
-        // Cache busting: añadir timestamp para forzar descarga de versión actualizada
-        const response = await fetch(`incidencias.json?v=${Date.now()}`);
+        // Cache busting: añadir timestamp y headers para forzar descarga de versión actualizada
+        const cacheBuster = Date.now();
+        const response = await fetch(`incidencias.json?v=${cacheBuster}`, {
+            cache: 'no-store',
+            headers: {
+                'Cache-Control': 'no-cache, no-store, must-revalidate',
+                'Pragma': 'no-cache',
+                'Expires': '0'
+            }
+        });
         const data = await response.json();
         
         incidenciasData = data.incidencias || [];
@@ -234,7 +242,15 @@ function convertirAHoraEspana(timestamp) {
 async function verificarActualizaciones() {
     try {
         // Hacer fetch solo para obtener el generated_at sin cache
-        const response = await fetch(`incidencias.json?v=${Date.now()}`);
+        const cacheBuster = Date.now();
+        const response = await fetch(`incidencias.json?v=${cacheBuster}`, {
+            cache: 'no-store',
+            headers: {
+                'Cache-Control': 'no-cache, no-store, must-revalidate',
+                'Pragma': 'no-cache',
+                'Expires': '0'
+            }
+        });
         const data = await response.json();
         
         // Comparar con la fecha conocida

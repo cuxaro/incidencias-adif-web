@@ -72,11 +72,11 @@ function renderizarTabla() {
     const tbody = document.getElementById('table-body');
     
     if (incidenciasFiltradas.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="8" class="no-results">No hay incidencias que coincidan con los filtros</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="7" class="no-results">No hay incidencias que coincidan con los filtros</td></tr>';
         return;
     }
     
-    tbody.innerHTML = incidenciasFiltradas.map(inc => {
+    tbody.innerHTML = incidenciasFiltradas.map((inc, index) => {
         const statusClass = `status-${inc.status.toLowerCase()}`;
         const statusText = statusNames[inc.status] || inc.status;
         const networkText = networkNames[inc.network] || inc.network;
@@ -85,15 +85,21 @@ function renderizarTabla() {
         const line = inc.line_affected || '-';
         const startDate = inc.start_date || '-';
         const descripcionOriginal = inc.descripcion_original || inc.description || '-';
+        const rowId = `row-${inc.id || index}`;
+        const descId = `desc-${inc.id || index}`;
         
         return `
-            <tr>
+            <tr class="incidencia-row" data-row-id="${rowId}">
                 <td><span class="status-badge ${statusClass}">${statusText}</span></td>
                 <td><span class="network-badge">${networkText}</span></td>
                 <td>${line}</td>
                 <td>${nodes}</td>
-                <td>${inc.summary || inc.description.substring(0, 100)}</td>
-                <td class="descripcion-cell">${descripcionOriginal}</td>
+                <td>
+                    <div class="summary-cell">
+                        ${inc.summary || inc.description.substring(0, 100)}
+                        ${descripcionOriginal && descripcionOriginal !== '-' ? `<button class="toggle-desc" data-target="${descId}" aria-label="Ver descripción completa">📄</button>` : ''}
+                    </div>
+                </td>
                 <td><span class="severity severity-${severity}">
                     <span class="severity-dot"></span>
                     <span class="severity-dot"></span>
@@ -103,8 +109,33 @@ function renderizarTabla() {
                 </span></td>
                 <td>${startDate}</td>
             </tr>
+            ${descripcionOriginal && descripcionOriginal !== '-' ? `
+            <tr class="descripcion-row" id="${descId}" style="display: none;">
+                <td colspan="7" class="descripcion-cell">
+                    <div class="descripcion-content">
+                        <strong>Descripción ADIF:</strong>
+                        <p>${descripcionOriginal}</p>
+                    </div>
+                </td>
+            </tr>
+            ` : ''}
         `;
     }).join('');
+    
+    // Configurar eventos de click para expandir/colapsar
+    tbody.querySelectorAll('.toggle-desc').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const targetId = btn.getAttribute('data-target');
+            const descRow = document.getElementById(targetId);
+            if (descRow) {
+                const isVisible = descRow.style.display !== 'none';
+                descRow.style.display = isVisible ? 'none' : 'table-row';
+                btn.textContent = isVisible ? '📄' : '📄';
+                btn.classList.toggle('active', !isVisible);
+            }
+        });
+    });
 }
 
 // Configurar filtros

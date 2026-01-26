@@ -269,12 +269,67 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Descripción cell */
+/* Summary cell con botón */
+.summary-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.toggle-desc {
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+
+.toggle-desc:hover {
+    background: #5568d3;
+    transform: scale(1.05);
+}
+
+.toggle-desc.active {
+    background: #764ba2;
+}
+
+/* Descripción expandida */
+.descripcion-row {
+    background: #f8f9fa;
+}
+
 .descripcion-cell {
-    max-width: 300px;
-    word-wrap: break-word;
-    font-size: 0.85rem;
-    line-height: 1.4;
+    padding: 1rem 1rem 1rem 3rem !important;
+    background: #f8f9fa;
+    border-top: 2px solid #667eea;
+}
+
+.descripcion-content {
+    background: white;
+    padding: 1rem;
+    border-radius: 6px;
+    border-left: 4px solid #667eea;
+}
+
+.descripcion-content strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #667eea;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.descripcion-content p {
+    margin: 0;
+    color: var(--color-text);
+    line-height: 1.6;
+    font-size: 0.9rem;
 }
 
 /* Responsive */

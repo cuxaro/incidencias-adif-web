@@ -215,11 +215,11 @@ async function verificarActualizaciones() {
     }
 }
 
-// Iniciar verificación periódica cada 10 minutos
+// Iniciar verificación periódica cada 1 minuto
 function iniciarVerificacionPeriodica() {
-    // Verificar cada 10 minutos (600000 ms)
-    intervaloActualizacion = setInterval(verificarActualizaciones, 10 * 60 * 1000);
-    console.log('✅ Verificación automática iniciada (cada 10 minutos)');
+    // Verificar cada 1 minuto (60000 ms)
+    intervaloActualizacion = setInterval(verificarActualizaciones, 60 * 1000);
+    console.log('✅ Verificación automática iniciada (cada 1 minuto)');
 }
 
 // Detener verificación periódica (útil si se necesita)

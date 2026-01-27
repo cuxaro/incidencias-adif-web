@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-27 07:12:16",
-  "total": 30,
+  "generated_at": "2026-01-27 07:16:58",
+  "total": 31,
   "incidencias": [
     {
       "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
@@ -18,7 +18,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "f8594bffc85a721d665d24ab8d8d78b6",
@@ -60,7 +60,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-27 06:51:45",
-      "ultima_vez_visto": null
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "6bbc38051d7c7bebf2a845a411f0e4f2",
@@ -101,7 +101,7 @@
       "end_date": null,
       "transport_backup": null,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "80c2dd5ec46d53c471ff5256c558b5e1",
@@ -121,7 +121,28 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-27 06:01:07",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
+    },
+    {
+      "id": "15ea5fa2d7902bd7b408d224d07f7c6d",
+      "summary": "Interrupción C2 Bilbao: Ortuella-Muskiz. Falta tensión. Bus sustitutorio.",
+      "description": "Está interrumpida la circulación en la línea C2 del núcleo de cercanías de Bilbao entre Ortuella y Muskiz por una falta de tensión en catenaria. Se está trabajando para solventar esta incidencia a la mayor brevedad posible. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros.",
+      "descripcion_original": "Está interrumpida la circulación en la línea C2 del núcleo de cercanías de Bilbao entre Ortuella y Muskiz por una falta de tensión en catenaria. Se está trabajando para solventar esta incidencia a la mayor brevedad posible. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros.",
+      "network": "CERCANIAS_MADRID",
+      "line_affected": "C2",
+      "location_type": "SEGMENT",
+      "nodes": [
+        "ORTUELLA",
+        "MUSKIZ"
+      ],
+      "status": "RED",
+      "cause_category": "INFRAESTRUCTURA",
+      "severity_level": 4,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": true,
+      "primera_vez_visto": "2026-01-27 07:16:56",
+      "ultima_vez_visto": null
     },
     {
       "id": "b1b9a0bc08071b87e8ce10068209e731",
@@ -162,7 +183,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 18:22:25",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "520eedc7ad25d88806bf5b3e840223a4",
@@ -204,7 +225,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "8a08ca3f9f0f451cba22916957bb2db2",
@@ -225,7 +246,7 @@
       "end_date": "2024-02-01",
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "82c98da5e9ff7e88f4cb7ae7dd075809",
@@ -267,7 +288,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "0aed1d1899063cd81c6a0d6b79d21d64",
@@ -330,7 +351,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "0dc376e78ae04b6849e846b9ed96d722",
@@ -351,7 +372,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -372,7 +393,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -393,7 +414,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "54f88bc7d3b6ee2a0ba32d75d1f01ee0",
@@ -414,7 +435,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -435,7 +456,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -460,7 +481,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -481,7 +502,7 @@
       "end_date": "2024-02-27",
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "f365b90ed0165cd355d71a95caaf87ba",
@@ -499,7 +520,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -520,7 +541,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -541,7 +562,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -559,7 +580,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-27 06:51:45"
+      "ultima_vez_visto": "2026-01-27 07:16:56"
     },
     {
       "id": "67b3082b7a54712e36a9b87b88c32949",

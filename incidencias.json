@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-28 12:51:48",
-  "total": 52,
+  "generated_at": "2026-01-28 12:57:24",
+  "total": 53,
   "incidencias": [
     {
       "id": "0d19554330c1cc59e1ce83390090f028",
@@ -39,7 +39,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "f8594bffc85a721d665d24ab8d8d78b6",
@@ -122,7 +122,7 @@
       "end_date": null,
       "transport_backup": null,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "80c2dd5ec46d53c471ff5256c558b5e1",
@@ -142,7 +142,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-27 06:01:07",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "15ea5fa2d7902bd7b408d224d07f7c6d",
@@ -286,7 +286,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-28 08:21:41",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "bc48dd6f9508753f1ab167fa327a0532",
@@ -431,7 +431,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "50eac931a153dfa29106d9d2ee1ed18c",
@@ -491,7 +491,7 @@
       "end_date": "2024-02-01",
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "ed5b7560c00600dbf6edc643a314067e",
@@ -512,7 +512,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-28 10:02:16",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "82c98da5e9ff7e88f4cb7ae7dd075809",
@@ -554,7 +554,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "0aed1d1899063cd81c6a0d6b79d21d64",
@@ -617,7 +617,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -638,7 +638,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-27 09:02:09",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "7021cc0c2a07361652211a94656b0554",
@@ -701,6 +701,27 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-28 10:41:39",
+      "ultima_vez_visto": "2026-01-28 12:57:23"
+    },
+    {
+      "id": "c0fdd270cec97a0361239d1251960266",
+      "summary": "Interrupción por meteo Córdoba - Puente Genil",
+      "description": "Por condiciones meteorológicas adversas, está interrumpida la circulación en el tramo Córdoba - Antequera-Santa Ana (ancho convencional) entre Córdoba y Puente Genil.",
+      "descripcion_original": "Por condiciones meteorológicas adversas, está interrumpida la circulación en el tramo Córdoba - Antequera-Santa Ana (ancho convencional) entre Córdoba y Puente Genil.",
+      "network": "MEDIA_DISTANCIA",
+      "line_affected": null,
+      "location_type": "SEGMENT",
+      "nodes": [
+        "CORDOBA",
+        "PUENTE GENIL"
+      ],
+      "status": "RED",
+      "cause_category": "METEO",
+      "severity_level": 4,
+      "start_date": "2024-10-26",
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-01-28 12:57:23",
       "ultima_vez_visto": null
     },
     {
@@ -743,7 +764,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -764,7 +785,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -785,7 +806,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "54f88bc7d3b6ee2a0ba32d75d1f01ee0",
@@ -806,7 +827,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -827,7 +848,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -852,7 +873,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -873,7 +894,7 @@
       "end_date": "2024-02-27",
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "f365b90ed0165cd355d71a95caaf87ba",
@@ -891,7 +912,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -912,7 +933,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -933,7 +954,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -951,7 +972,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "67b3082b7a54712e36a9b87b88c32949",
@@ -1014,7 +1035,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-28 08:15:51",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "a0f012a0b0831c3b99cf35146cc284bd",
@@ -1057,7 +1078,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-28 10:11:17",
-      "ultima_vez_visto": "2026-01-28 10:41:39"
+      "ultima_vez_visto": "2026-01-28 12:57:23"
     },
     {
       "id": "61f4a497fa0c1a53cf5324095ad2a649",

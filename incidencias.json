@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-28 07:02:02",
-  "total": 39,
+  "generated_at": "2026-01-28 07:06:43",
+  "total": 40,
   "incidencias": [
     {
       "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
@@ -18,7 +18,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "f8594bffc85a721d665d24ab8d8d78b6",
@@ -101,7 +101,7 @@
       "end_date": null,
       "transport_backup": null,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "80c2dd5ec46d53c471ff5256c558b5e1",
@@ -121,7 +121,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-27 06:01:07",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "15ea5fa2d7902bd7b408d224d07f7c6d",
@@ -184,7 +184,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-28 06:36:37",
-      "ultima_vez_visto": null
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "b1b9a0bc08071b87e8ce10068209e731",
@@ -288,7 +288,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "50eac931a153dfa29106d9d2ee1ed18c",
@@ -312,6 +312,24 @@
       "ultima_vez_visto": null
     },
     {
+      "id": "f62d3469d70048c54e3eac89daa71b98",
+      "summary": "Circulación suspendida en C1 Cercanías Sevilla por fallo eléctrico.",
+      "description": "Se encuentra suspendida la circulación en la línea C1 del núcleo de cercanías de Sevilla por una incidencia que afecta al suministro eléctrico. Se está trabajando para solucionarla a la mayor brevedad posible.",
+      "descripcion_original": "Se encuentra suspendida la circulación en la línea C1 del núcleo de cercanías de Sevilla por una incidencia que afecta al suministro eléctrico. Se está trabajando para solucionarla a la mayor brevedad posible.",
+      "network": "CERCANIAS_MADRID",
+      "line_affected": "C1",
+      "location_type": "LINE",
+      "nodes": [],
+      "status": "RED",
+      "cause_category": "INFRAESTRUCTURA",
+      "severity_level": 4,
+      "start_date": "2024-01-03",
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-01-28 07:06:41",
+      "ultima_vez_visto": null
+    },
+    {
       "id": "8a08ca3f9f0f451cba22916957bb2db2",
       "summary": "Interrupción Zaragoza-Lleida por obras. Plan alternativo.",
       "description": "Por obras de mejora de las estaciones de Selgua y Marcén-Poleñino, los días 31 de enero y 01 de febrero estará interrumpida la circulación por la línea de ancho convencional entre las estaciones de Zaragoza Delicias y Lleida Pirineus. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
@@ -330,7 +348,7 @@
       "end_date": "2024-02-01",
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "82c98da5e9ff7e88f4cb7ae7dd075809",
@@ -372,7 +390,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "0aed1d1899063cd81c6a0d6b79d21d64",
@@ -435,7 +453,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -456,7 +474,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-27 09:02:09",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "7021cc0c2a07361652211a94656b0554",
@@ -540,7 +558,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -561,7 +579,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -582,7 +600,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "54f88bc7d3b6ee2a0ba32d75d1f01ee0",
@@ -603,7 +621,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -624,7 +642,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -649,7 +667,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -670,7 +688,7 @@
       "end_date": "2024-02-27",
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "f365b90ed0165cd355d71a95caaf87ba",
@@ -688,7 +706,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -709,7 +727,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -730,7 +748,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -748,7 +766,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 06:36:37"
+      "ultima_vez_visto": "2026-01-28 07:06:41"
     },
     {
       "id": "67b3082b7a54712e36a9b87b88c32949",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-28 07:41:50",
-  "total": 43,
+  "generated_at": "2026-01-28 07:46:59",
+  "total": 44,
   "incidencias": [
     {
       "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
@@ -18,7 +18,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "f8594bffc85a721d665d24ab8d8d78b6",
@@ -101,7 +101,7 @@
       "end_date": null,
       "transport_backup": null,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "80c2dd5ec46d53c471ff5256c558b5e1",
@@ -121,7 +121,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-27 06:01:07",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "15ea5fa2d7902bd7b408d224d07f7c6d",
@@ -184,7 +184,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-28 06:36:37",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "fcd248ae3ffbf8f7ecaa47d5d276e9f8",
@@ -202,6 +202,27 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-28 07:41:49",
+      "ultima_vez_visto": "2026-01-28 07:46:57"
+    },
+    {
+      "id": "56ade99f0be38df0526425f25b91fc0e",
+      "summary": "Interrupción entre Bobadilla y Campillos por obstáculo.",
+      "description": "Está interrumpida la circulación entre Bobadilla y Campillos (tramo Algeciras-Bobadilla) por un obstáculo en la vía. Se está trabajando para retirarlo a la mayor brevedad posible.",
+      "descripcion_original": "Está interrumpida la circulación entre Bobadilla y Campillos (tramo Algeciras-Bobadilla) por un obstáculo en la vía. Se está trabajando para retirarlo a la mayor brevedad posible.",
+      "network": "MEDIA_DISTANCIA",
+      "line_affected": null,
+      "location_type": "SEGMENT",
+      "nodes": [
+        "BOBADILLA",
+        "CAMPILLOS"
+      ],
+      "status": "RED",
+      "cause_category": "INFRAESTRUCTURA",
+      "severity_level": 4,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-01-28 07:46:57",
       "ultima_vez_visto": null
     },
     {
@@ -263,7 +284,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-28 07:31:51",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "532143245198bdf75bf6dbfd5edc74c7",
@@ -326,7 +347,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "50eac931a153dfa29106d9d2ee1ed18c",
@@ -386,7 +407,7 @@
       "end_date": "2024-02-01",
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "82c98da5e9ff7e88f4cb7ae7dd075809",
@@ -428,7 +449,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "0aed1d1899063cd81c6a0d6b79d21d64",
@@ -491,7 +512,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -512,7 +533,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-27 09:02:09",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "7021cc0c2a07361652211a94656b0554",
@@ -596,7 +617,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -617,7 +638,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -638,7 +659,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "54f88bc7d3b6ee2a0ba32d75d1f01ee0",
@@ -659,7 +680,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -680,7 +701,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -705,7 +726,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -726,7 +747,7 @@
       "end_date": "2024-02-27",
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "f365b90ed0165cd355d71a95caaf87ba",
@@ -744,7 +765,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -765,7 +786,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -786,7 +807,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -804,7 +825,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "67b3082b7a54712e36a9b87b88c32949",
@@ -867,7 +888,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-28 07:26:50",
-      "ultima_vez_visto": "2026-01-28 07:41:49"
+      "ultima_vez_visto": "2026-01-28 07:46:57"
     },
     {
       "id": "61f4a497fa0c1a53cf5324095ad2a649",

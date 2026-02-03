@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-03 12:41:52",
-  "total": 87,
+  "generated_at": "2026-02-03 12:47:22",
+  "total": 88,
   "incidencias": [
     {
       "id": "0d19554330c1cc59e1ce83390090f028",
@@ -39,7 +39,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "f8594bffc85a721d665d24ab8d8d78b6",
@@ -662,7 +662,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "50eac931a153dfa29106d9d2ee1ed18c",
@@ -763,7 +763,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "8a08ca3f9f0f451cba22916957bb2db2",
@@ -889,7 +889,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "0aed1d1899063cd81c6a0d6b79d21d64",
@@ -952,7 +952,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -1099,7 +1099,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "03d857bbf558373d544649ae37108ac3",
@@ -1162,7 +1162,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -1183,7 +1183,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -1204,7 +1204,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "54f88bc7d3b6ee2a0ba32d75d1f01ee0",
@@ -1225,7 +1225,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -1246,7 +1246,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -1271,7 +1271,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -1310,7 +1310,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -1331,7 +1331,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -1352,7 +1352,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -1370,7 +1370,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "67b3082b7a54712e36a9b87b88c32949",
@@ -1656,7 +1656,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-03 08:36:43",
-      "ultima_vez_visto": "2026-02-03 12:11:43"
+      "ultima_vez_visto": "2026-02-03 12:47:20"
     },
     {
       "id": "1f56236155885118d4af255db4be820e",
@@ -1698,6 +1698,27 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-03 12:11:43",
+      "ultima_vez_visto": null
+    },
+    {
+      "id": "9a832747d0fb6320d53045c7850d8675",
+      "summary": "Retrasos en la línea entre València la Font y Buñol.",
+      "description": "Debido a una incidencia que afecta al sistema de electrificación en la estación València la Font de San Lluís los trenes que circulan entre esta estación y la de Buñol están registrando retrasos. Se está trabajando para solventarla a la mayor brevedad posible.",
+      "descripcion_original": "Debido a una incidencia que afecta al sistema de electrificación en la estación València la Font de San Lluís los trenes que circulan entre esta estación y la de Buñol están registrando retrasos. Se está trabajando para solventarla a la mayor brevedad posible.",
+      "network": "CERCANIAS_VALENCIA",
+      "line_affected": null,
+      "location_type": "SEGMENT",
+      "nodes": [
+        "VALENCIA-LA FONT DE SANT LLUIS",
+        "BUÑOL"
+      ],
+      "status": "YELLOW",
+      "cause_category": "INFRAESTRUCTURA",
+      "severity_level": 2,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-03 12:47:20",
       "ultima_vez_visto": null
     },
     {

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-04 11:17:01",
-  "total": 111,
+  "generated_at": "2026-02-04 11:22:25",
+  "total": 113,
   "incidencias": [
     {
       "id": "0d19554330c1cc59e1ce83390090f028",
@@ -84,7 +84,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 11:16:59",
-      "ultima_vez_visto": null
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
@@ -123,7 +123,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-03 13:56:51",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "f8594bffc85a721d665d24ab8d8d78b6",
@@ -643,7 +643,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-04 07:11:44",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "92cc53f5fcb5ad0c188210c5aa823d17",
@@ -809,7 +809,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "50eac931a153dfa29106d9d2ee1ed18c",
@@ -910,7 +910,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "8a08ca3f9f0f451cba22916957bb2db2",
@@ -1036,7 +1036,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "64cc4a367269f89abb38586f8b4d92d7",
@@ -1159,6 +1159,24 @@
       "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
+      "id": "553425ada75448af99ee77cd8cf919f8",
+      "summary": "Interrupción circulación por lluvias en Andalucía (excepto cercanías Cádiz, Málaga-Fuengirola y Granada-Almería).",
+      "description": "Debido al temporal de lluvias en Andalucía, durante el día 4 estará interrumpida la circulación en ancho convencional en el ámbito de Andalucía, excepto el servicio de cercanías del núcleo de Cádiz, la línea Málaga-Fuengirola y la relación Granada-Almería.",
+      "descripcion_original": "Debido al temporal de lluvias en Andalucía, durante el día 4 estará interrumpida la circulación en ancho convencional en el ámbito de Andalucía, excepto el servicio de cercanías del núcleo de Cádiz, la línea Málaga-Fuengirola y la relación Granada-Almería.",
+      "network": "ANCHO_METRICO",
+      "line_affected": null,
+      "location_type": "AREA",
+      "nodes": [],
+      "status": "RED",
+      "cause_category": "METEO",
+      "severity_level": 4,
+      "start_date": "2024-07-04",
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-04 11:22:21",
+      "ultima_vez_visto": null
+    },
+    {
       "id": "0aed1d1899063cd81c6a0d6b79d21d64",
       "summary": "Interrupción Reus-Riba-Roja por acumulación de agua.",
       "description": "Está interrumpido el tráfico ferroviario entre Reus y Riba-Roja d'Ebre (tramo Reus-Zaragoza) por acumulación de agua en la infraestructura. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros.",
@@ -1219,7 +1237,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -1366,7 +1384,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "03d857bbf558373d544649ae37108ac3",
@@ -1429,7 +1447,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -1450,7 +1468,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -1492,7 +1510,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -1513,7 +1531,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -1538,7 +1556,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -1577,7 +1595,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -1598,7 +1616,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -1619,7 +1637,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -1637,7 +1655,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 11:16:59"
+      "ultima_vez_visto": "2026-02-04 11:22:21"
     },
     {
       "id": "67b3082b7a54712e36a9b87b88c32949",
@@ -2193,6 +2211,27 @@
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 06:51:49",
       "ultima_vez_visto": "2026-02-04 09:21:30"
+    },
+    {
+      "id": "c65d2721a076600b4ec67f9dbc2bc8d1",
+      "summary": "Retrasos Madrid-Alcázar S.J. por robo de cable.",
+      "description": "Los trenes que circulan entre Madrid y Alcázar de San Juan pueden registrar retrasos debido a una incidencia provocada por robo de cable entre Marañón y Alcázar de San Juan.",
+      "descripcion_original": "Los trenes que circulan entre Madrid y Alcázar de San Juan pueden registrar retrasos debido a una incidencia provocada por robo de cable entre Marañón y Alcázar de San Juan.",
+      "network": "MEDIA_DISTANCIA",
+      "line_affected": null,
+      "location_type": "SEGMENT",
+      "nodes": [
+        "MADRID",
+        "ALCAZAR DE SAN JUAN"
+      ],
+      "status": "YELLOW",
+      "cause_category": "INFRAESTRUCTURA",
+      "severity_level": 2,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-04 11:22:21",
+      "ultima_vez_visto": null
     },
     {
       "id": "a0f012a0b0831c3b99cf35146cc284bd",

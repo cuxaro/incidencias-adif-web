@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-04 11:11:56",
-  "total": 110,
+  "generated_at": "2026-02-04 11:17:01",
+  "total": 111,
   "incidencias": [
     {
       "id": "0d19554330c1cc59e1ce83390090f028",
@@ -66,6 +66,27 @@
       "ultima_vez_visto": "2026-02-04 09:41:48"
     },
     {
+      "id": "bd6864be7fb81635f6a1e30054e1da30",
+      "summary": "Interrupción AV Málaga-Antequera por desprendimiento y meteo.",
+      "description": "Se encuentra interrumpida la circulación de alta velocidad entre Málaga y Antequera Santa Ana debido a un desprendimiento de tierras en Álora y en el tramo de alta velocidad Antequera Santa Ana-Granada por condiciones meteorológicas adversas entre Bifurcación Tocón y Loja.",
+      "descripcion_original": "Se encuentra interrumpida la circulación de alta velocidad entre Málaga y Antequera Santa Ana debido a un desprendimiento de tierras en Álora y en el tramo de alta velocidad Antequera Santa Ana-Granada por condiciones meteorológicas adversas entre Bifurcación Tocón y Loja.",
+      "network": "ALTA_VELOCIDAD",
+      "line_affected": null,
+      "location_type": "SEGMENT",
+      "nodes": [
+        "BIFURCACION TOCON",
+        "LOJA"
+      ],
+      "status": "RED",
+      "cause_category": "METEO",
+      "severity_level": 5,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-04 11:16:59",
+      "ultima_vez_visto": null
+    },
+    {
       "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
       "summary": "Accidente en Adamuz (Córdoba). Interrupción AV Madrid-Andalucía.",
       "description": "Personal y equipos de Adif están trabajando sobre el terreno, en coordinación con los servicios de emergencia y empresas ferroviarias, en el accidente que tuvo lugar el 18 de enero en Adamuz (Córdoba). Una vez sea posible retirar los trenes afectados, Adif evaluará los daños sobre la infraestructura y movilizará todos los recursos técnicos y humanos necesarios para restablecer la circulación. Mientras tanto, se encuentra interrumpido el servicio de Alta Velocidad entre Madrid y Andalucía (conexiones con Córdoba, Sevilla, Málaga, Granada, Huelva, Cádiz y Algeciras). Información sobre trenes, servicios comerciales y planes alternativos de transporte en: @InfoRenfe, @iryo_eu y @Ouigo_es. Los servicios comerciales entre Madrid con Toledo, Ciudad Real y Puertollano se prestan con normalidad.",
@@ -102,7 +123,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-03 13:56:51",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "f8594bffc85a721d665d24ab8d8d78b6",
@@ -622,7 +643,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-04 07:11:44",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "92cc53f5fcb5ad0c188210c5aa823d17",
@@ -788,7 +809,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "50eac931a153dfa29106d9d2ee1ed18c",
@@ -889,7 +910,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "8a08ca3f9f0f451cba22916957bb2db2",
@@ -1015,7 +1036,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "64cc4a367269f89abb38586f8b4d92d7",
@@ -1135,7 +1156,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 09:21:30",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "0aed1d1899063cd81c6a0d6b79d21d64",
@@ -1198,7 +1219,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -1345,7 +1366,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "03d857bbf558373d544649ae37108ac3",
@@ -1408,7 +1429,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -1429,7 +1450,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -1471,7 +1492,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -1492,7 +1513,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -1517,7 +1538,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -1556,7 +1577,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -1577,7 +1598,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -1598,7 +1619,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -1616,7 +1637,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "67b3082b7a54712e36a9b87b88c32949",
@@ -2129,7 +2150,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 05:31:57",
-      "ultima_vez_visto": "2026-02-04 09:41:48"
+      "ultima_vez_visto": "2026-02-04 11:16:59"
     },
     {
       "id": "57b35e72d662437e22efbd27f16b615b",

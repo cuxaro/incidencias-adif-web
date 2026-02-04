@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-04 17:10:38",
-  "total": 117,
+  "generated_at": "2026-02-04 17:17:07",
+  "total": 120,
   "incidencias": [
     {
       "id": "0d19554330c1cc59e1ce83390090f028",
@@ -84,7 +84,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 11:16:59",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "f2078691fc81360b588104c8ab0ce07c",
@@ -105,7 +105,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 16:36:46",
-      "ultima_vez_visto": null
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
@@ -144,7 +144,25 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-03 13:56:51",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
+    },
+    {
+      "id": "e1c5c4359ec0160693c4ff4dda2b4536",
+      "summary": "Interrupción C1 Cercanías Cádiz por meteo adversa.",
+      "description": "En estos momentos se encuentra interrumpido el servicio ferroviario en la línea C1 del núcleo de cercanías de Cádiz por condiciones meteorológicas adversas.",
+      "descripcion_original": "En estos momentos se encuentra interrumpido el servicio ferroviario en la línea C1 del núcleo de cercanías de Cádiz por condiciones meteorológicas adversas.",
+      "network": "CERCANIAS_MADRID",
+      "line_affected": "C1",
+      "location_type": "LINE",
+      "nodes": [],
+      "status": "RED",
+      "cause_category": "METEO",
+      "severity_level": 5,
+      "start_date": "2024-02-22",
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-04 17:17:02",
+      "ultima_vez_visto": null
     },
     {
       "id": "a91c1d5e26e4a2a37bff6126fa9e47ca",
@@ -162,6 +180,24 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 13:41:45",
+      "ultima_vez_visto": null
+    },
+    {
+      "id": "db3882bf18912a5edffa6258aac7040a",
+      "summary": "Interrupción por lluvias en red convencional Andalucía (excepto C1 Málaga)",
+      "description": "Debido al temporal de lluvias en Andalucía, durante el día 4 estará interrumpida la circulación en ancho convencional en el ámbito de Andalucía, excepto en la línea Málaga-Fuengirola (línea C1 del núcleo de cercanías de Málaga).",
+      "descripcion_original": "Debido al temporal de lluvias en Andalucía, durante el día 4 estará interrumpida la circulación en ancho convencional en el ámbito de Andalucía, excepto en la línea Málaga-Fuengirola (línea C1 del núcleo de cercanías de Málaga).",
+      "network": "ANCHO_METRICO",
+      "line_affected": null,
+      "location_type": "AREA",
+      "nodes": [],
+      "status": "RED",
+      "cause_category": "METEO",
+      "severity_level": 5,
+      "start_date": "2024-07-04",
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-04 17:17:02",
       "ultima_vez_visto": null
     },
     {
@@ -682,7 +718,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-04 07:11:44",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "92cc53f5fcb5ad0c188210c5aa823d17",
@@ -869,7 +905,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "50eac931a153dfa29106d9d2ee1ed18c",
@@ -908,6 +944,27 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-28 07:06:41",
+      "ultima_vez_visto": null
+    },
+    {
+      "id": "33ec93f9b7387ef0716aaf0bdc28c7e6",
+      "summary": "Interrupción entre Granada y Huércal-Viator por meteo.",
+      "description": "Está interrumpido el tráfico ferroviario entre Granada y Huércal-Viator por condiciones meteorológicas adversas.",
+      "descripcion_original": "Está interrumpido el tráfico ferroviario entre Granada y Huércal-Viator por condiciones meteorológicas adversas.",
+      "network": "MEDIA_DISTANCIA",
+      "line_affected": null,
+      "location_type": "SEGMENT",
+      "nodes": [
+        "GRANADA",
+        "HUERCAL-VIATOR"
+      ],
+      "status": "RED",
+      "cause_category": "METEO",
+      "severity_level": 4,
+      "start_date": "2024-01-18",
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-04 17:17:02",
       "ultima_vez_visto": null
     },
     {
@@ -970,7 +1027,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "8a08ca3f9f0f451cba22916957bb2db2",
@@ -1096,7 +1153,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "64cc4a367269f89abb38586f8b4d92d7",
@@ -1315,7 +1372,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -1462,7 +1519,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "03d857bbf558373d544649ae37108ac3",
@@ -1525,7 +1582,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -1546,7 +1603,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -1588,7 +1645,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -1609,7 +1666,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -1634,7 +1691,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -1673,7 +1730,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -1694,7 +1751,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -1715,7 +1772,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -1733,7 +1790,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 16:36:46"
+      "ultima_vez_visto": "2026-02-04 17:17:02"
     },
     {
       "id": "67b3082b7a54712e36a9b87b88c32949",

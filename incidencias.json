@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-04 16:21:33",
-  "total": 114,
+  "generated_at": "2026-02-04 16:26:51",
+  "total": 116,
   "incidencias": [
     {
       "id": "0d19554330c1cc59e1ce83390090f028",
@@ -84,7 +84,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 11:16:59",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
@@ -123,7 +123,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-03 13:56:51",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "a91c1d5e26e4a2a37bff6126fa9e47ca",
@@ -661,7 +661,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-04 07:11:44",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "92cc53f5fcb5ad0c188210c5aa823d17",
@@ -767,6 +767,27 @@
       "ultima_vez_visto": null
     },
     {
+      "id": "1301878f365631fcf1aebd768eec620a",
+      "summary": "Interrupción C1 Cercanías Cádiz por meteorología adversa.",
+      "description": "En estos momentos se encuentra interrumpido el servicio ferroviario en la línea C1 del núcleo de cercanías de Cádiz entre Jerez de la Frontera y Puerto de Santa María para el reconocimiento de la infraestructura por condiciones meteorológicas adversas.",
+      "descripcion_original": "En estos momentos se encuentra interrumpido el servicio ferroviario en la línea C1 del núcleo de cercanías de Cádiz entre Jerez de la Frontera y Puerto de Santa María para el reconocimiento de la infraestructura por condiciones meteorológicas adversas.",
+      "network": "CERCANIAS_MADRID",
+      "line_affected": "C1",
+      "location_type": "SEGMENT",
+      "nodes": [
+        "JEREZ DE LA FRONTERA",
+        "PUERTO DE SANTA MARIA"
+      ],
+      "status": "RED",
+      "cause_category": "METEO",
+      "severity_level": 4,
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "transport_backup": null,
+      "primera_vez_visto": "2026-02-04 16:26:47",
+      "ultima_vez_visto": null
+    },
+    {
       "id": "532143245198bdf75bf6dbfd5edc74c7",
       "summary": "Interrupción entre Caldes De Malavella y Girona por desprendimiento.",
       "description": "Se encuentra interrumpida la circulación entre Caldes De Malavella y Girona, de la línea de ancho convencional Barcelona-Girona-Portbou, debido a un posible desprendimiento de tierra sobre la vía.",
@@ -827,7 +848,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "50eac931a153dfa29106d9d2ee1ed18c",
@@ -928,7 +949,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "8a08ca3f9f0f451cba22916957bb2db2",
@@ -1054,7 +1075,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "64cc4a367269f89abb38586f8b4d92d7",
@@ -1195,6 +1216,24 @@
       "ultima_vez_visto": "2026-02-04 12:06:38"
     },
     {
+      "id": "10981467df4914c901dee3677fc42be6",
+      "summary": "Interrupción circulación en Andalucía por temporal.",
+      "description": "Debido al temporal de lluvias en Andalucía, durante el día 4 estará interrumpida la circulación en ancho convencional en el ámbito de Andalucía, excepto en la línea Málaga-Fuengirola (línea C1 del núcleo de cercanías de Málaga) y la relación Granada-Almería.",
+      "descripcion_original": "Debido al temporal de lluvias en Andalucía, durante el día 4 estará interrumpida la circulación en ancho convencional en el ámbito de Andalucía, excepto en la línea Málaga-Fuengirola (línea C1 del núcleo de cercanías de Málaga) y la relación Granada-Almería.",
+      "network": "MEDIA_DISTANCIA",
+      "line_affected": null,
+      "location_type": "AREA",
+      "nodes": [],
+      "status": "RED",
+      "cause_category": "METEO",
+      "severity_level": 4,
+      "start_date": "2024-07-04",
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-04 16:26:47",
+      "ultima_vez_visto": null
+    },
+    {
       "id": "0aed1d1899063cd81c6a0d6b79d21d64",
       "summary": "Interrupción Reus-Riba-Roja por acumulación de agua.",
       "description": "Está interrumpido el tráfico ferroviario entre Reus y Riba-Roja d'Ebre (tramo Reus-Zaragoza) por acumulación de agua en la infraestructura. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros.",
@@ -1255,7 +1294,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -1402,7 +1441,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "03d857bbf558373d544649ae37108ac3",
@@ -1465,7 +1504,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -1486,7 +1525,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -1528,7 +1567,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -1549,7 +1588,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -1574,7 +1613,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -1613,7 +1652,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -1634,7 +1673,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -1655,7 +1694,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -1673,7 +1712,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 13:41:45"
+      "ultima_vez_visto": "2026-02-04 16:26:47"
     },
     {
       "id": "67b3082b7a54712e36a9b87b88c32949",

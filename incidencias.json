@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-04 18:50:26",
-  "total": 120,
+  "generated_at": "2026-02-04 18:57:04",
+  "total": 126,
   "incidencias": [
     {
       "id": "0d19554330c1cc59e1ce83390090f028",
@@ -84,7 +84,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 11:16:59",
-      "ultima_vez_visto": "2026-02-04 17:31:51"
+      "ultima_vez_visto": "2026-02-04 18:56:51"
     },
     {
       "id": "f2078691fc81360b588104c8ab0ce07c",
@@ -147,6 +147,33 @@
       "ultima_vez_visto": "2026-02-04 17:31:51"
     },
     {
+      "id": "7e0d1130d04d61920398ab8ad11e3cf7",
+      "summary": "Interrupción AVE Madrid - Andalucía por accidente en Adamuz.",
+      "description": "Se encuentra interrumpido el servicio de alta velocidad entre Madrid y Andalucía (conexiones con Córdoba, Sevilla, Málaga, Granada, Huelva, Cádiz y Algeciras) por el accidente ocurrido el pasado 18 de enero en Adamuz. Se sigue trabajando sobre el terreno para devolver la infraestructura lo antes posible. Los servicios comerciales entre Madrid con Toledo, Ciudad Real y Puertollano se prestan con normalidad. Información sobre trenes, servicios comerciales y planes alternativos de transporte en: @InfoRenfe, @iryo_eu y @Ouigo_es.",
+      "descripcion_original": "Se encuentra interrumpido el servicio de alta velocidad entre Madrid y Andalucía (conexiones con Córdoba, Sevilla, Málaga, Granada, Huelva, Cádiz y Algeciras) por el accidente ocurrido el pasado 18 de enero en Adamuz. Se sigue trabajando sobre el terreno para devolver la infraestructura lo antes posible. Los servicios comerciales entre Madrid con Toledo, Ciudad Real y Puertollano se prestan con normalidad. Información sobre trenes, servicios comerciales y planes alternativos de transporte en: @InfoRenfe, @iryo_eu y @Ouigo_es.",
+      "network": "ALTA_VELOCIDAD",
+      "line_affected": null,
+      "location_type": "LINE",
+      "nodes": [
+        "MADRID",
+        "CORDOBA",
+        "SEVILLA",
+        "MALAGA",
+        "GRANADA",
+        "HUELVA",
+        "CADIZ",
+        "ALGECIRAS"
+      ],
+      "status": "RED",
+      "cause_category": "ACCIDENTE",
+      "severity_level": 5,
+      "start_date": "2024-01-18",
+      "end_date": null,
+      "transport_backup": true,
+      "primera_vez_visto": "2026-02-04 18:56:51",
+      "ultima_vez_visto": null
+    },
+    {
       "id": "e1c5c4359ec0160693c4ff4dda2b4536",
       "summary": "Interrupción C1 Cercanías Cádiz por meteo adversa.",
       "description": "En estos momentos se encuentra interrumpido el servicio ferroviario en la línea C1 del núcleo de cercanías de Cádiz por condiciones meteorológicas adversas.",
@@ -198,7 +225,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 17:17:02",
-      "ultima_vez_visto": "2026-02-04 17:31:51"
+      "ultima_vez_visto": "2026-02-04 18:56:51"
     },
     {
       "id": "f8594bffc85a721d665d24ab8d8d78b6",
@@ -742,6 +769,48 @@
       "ultima_vez_visto": "2026-02-04 08:51:55"
     },
     {
+      "id": "592e390240d41dbc25b8c6d14cb87765",
+      "summary": "Circulación suspendida Cercedilla-Segovia. Plan alternativo.",
+      "description": "Se encuentra suspendida la circulación entre Cercedilla y Segovia por condiciones meteorológicas adversas. Se ha establecido un plan alternativo de transporte por carretera para garantizar la movilidad de los viajeros.",
+      "descripcion_original": "Se encuentra suspendida la circulación entre Cercedilla y Segovia por condiciones meteorológicas adversas. Se ha establecido un plan alternativo de transporte por carretera para garantizar la movilidad de los viajeros.",
+      "network": "MEDIA_DISTANCIA",
+      "line_affected": null,
+      "location_type": "SEGMENT",
+      "nodes": [
+        "CERCEDILLA",
+        "SEGOVIA"
+      ],
+      "status": "RED",
+      "cause_category": "METEO",
+      "severity_level": 4,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": true,
+      "primera_vez_visto": "2026-02-04 18:56:51",
+      "ultima_vez_visto": null
+    },
+    {
+      "id": "ba5b6140d1f6cf4f53a925b95c95fbd4",
+      "summary": "Interrupción R4 entre Sant Sadurní y Martorell por temporal.",
+      "description": "Se encuentra interrumpida la circulación entre Sant Sadurní d'Anoia y Martorell Central (línea R4 del núcleo de rodalies de Catalunya) por el arrollamiento de un muro próximo a la infraestructura debido al temporal.",
+      "descripcion_original": "Se encuentra interrumpida la circulación entre Sant Sadurní d'Anoia y Martorell Central (línea R4 del núcleo de rodalies de Catalunya) por el arrollamiento de un muro próximo a la infraestructura debido al temporal.",
+      "network": "RODALIES_CATALUNYA",
+      "line_affected": "R4",
+      "location_type": "SEGMENT",
+      "nodes": [
+        "SANT SADURNI D'ANOIA",
+        "MARTORELL CENTRAL"
+      ],
+      "status": "RED",
+      "cause_category": "METEO",
+      "severity_level": 4,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-04 18:56:51",
+      "ultima_vez_visto": null
+    },
+    {
       "id": "b1b9a0bc08071b87e8ce10068209e731",
       "summary": "Interrupción C2 Asturias por falta tensión en catenaria.",
       "description": "Se encuentra interrumpida la circulación en la línea C2 del núcleo de cercanías de Asturias por falta de tensión en catenaria en Tudela-Veguín. Personal de Adif está trabajando para solventar esta incidencia a la mayor brevedad posible.",
@@ -905,7 +974,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 17:31:51"
+      "ultima_vez_visto": "2026-02-04 18:56:51"
     },
     {
       "id": "50eac931a153dfa29106d9d2ee1ed18c",
@@ -1027,7 +1096,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 17:31:51"
+      "ultima_vez_visto": "2026-02-04 18:56:51"
     },
     {
       "id": "8a08ca3f9f0f451cba22916957bb2db2",
@@ -1153,7 +1222,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 17:31:51"
+      "ultima_vez_visto": "2026-02-04 18:56:51"
     },
     {
       "id": "64cc4a367269f89abb38586f8b4d92d7",
@@ -1372,7 +1441,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 17:31:51"
+      "ultima_vez_visto": "2026-02-04 18:56:51"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -1582,7 +1651,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 17:31:51"
+      "ultima_vez_visto": "2026-02-04 18:56:51"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -1603,7 +1672,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 17:31:51"
+      "ultima_vez_visto": "2026-02-04 18:56:51"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -1645,7 +1714,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 17:31:51"
+      "ultima_vez_visto": "2026-02-04 18:56:51"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -1667,6 +1736,27 @@
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
       "ultima_vez_visto": "2026-02-04 17:31:51"
+    },
+    {
+      "id": "434d855f488e28b51b5c8ae9d201a534",
+      "summary": "Interrupción C3 Cantabria por obras (Astillero-Liérganes)",
+      "description": "Por obras de mejora en la infraestructura entre las estaciones de Astillero y Orejo, desde el 3 de noviembre de 2025 se encuentra interrumpida la circulación en la línea C3 del núcleo de cercanías de Cantabria (línea de ancho métrico Santander-Liérganes) entre Astillero y Liérganes. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+      "descripcion_original": "Por obras de mejora en la infraestructura entre las estaciones de Astillero y Orejo, desde el 3 de noviembre de 2025 se encuentra interrumpida la circulación en la línea C3 del núcleo de cercanías de Cantabria (línea de ancho métrico Santander-Liérganes) entre Astillero y Liérganes. Se ha establecido un plan de transporte alternativo por carretera para garantizar la movilidad de los viajeros. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+      "network": "ANCHO_METRICO",
+      "line_affected": "C3",
+      "location_type": "SEGMENT",
+      "nodes": [
+        "ASTILLERO",
+        "OREJO"
+      ],
+      "status": "RED",
+      "cause_category": "OBRAS",
+      "severity_level": 4,
+      "start_date": "2025-11-03",
+      "end_date": null,
+      "transport_backup": true,
+      "primera_vez_visto": "2026-02-04 18:56:51",
+      "ultima_vez_visto": null
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -1691,7 +1781,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 17:31:51"
+      "ultima_vez_visto": "2026-02-04 18:56:51"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -1730,7 +1820,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 17:31:51"
+      "ultima_vez_visto": "2026-02-04 18:56:51"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -1751,7 +1841,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 17:31:51"
+      "ultima_vez_visto": "2026-02-04 18:56:51"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -1773,6 +1863,27 @@
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
       "ultima_vez_visto": "2026-02-04 17:31:51"
+    },
+    {
+      "id": "18f722b51c991f32eaf5892935563c5e",
+      "summary": "Obras en València Joaquín Sorolla desde 2025-05-06.",
+      "description": "Por obras de mejora en la estación, desde el 6 de mayo de 2025 los trenes de ancho convencional que tienen como origen/destino o paso la estación de València Joaquín Sorolla inician/finalizan su recorrido o tendrán parada en València-Estació del Nord. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+      "descripcion_original": "Por obras de mejora en la estación, desde el 6 de mayo de 2025 los trenes de ancho convencional que tienen como origen/destino o paso la estación de València Joaquín Sorolla inician/finalizan su recorrido o tendrán parada en València-Estació del Nord. Para más información: www.renfe.com Enlace externo al portal.Se abrirá en una pestaña nueva. y @InfoRenfe Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+      "network": "MEDIA_DISTANCIA",
+      "line_affected": null,
+      "location_type": "STATION",
+      "nodes": [
+        "VALENCIA-JOAQUIN SOROLLA",
+        "VALENCIA-ESTACIO DEL NORD"
+      ],
+      "status": "BLUE",
+      "cause_category": "OBRAS",
+      "severity_level": 3,
+      "start_date": "2025-05-06",
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-04 18:56:51",
+      "ultima_vez_visto": null
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -2366,6 +2477,24 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 11:22:21",
+      "ultima_vez_visto": null
+    },
+    {
+      "id": "b2daa052062e0f0e6c531be0f992bab4",
+      "summary": "Retrasos en líneas de alta velocidad Madrid-Barcelona y Madrid-Valencia.",
+      "description": "Se están produciendo retrasos en las líneas de alta velocidad Madrid-Barcelona y Madrid-Valencia por el establecimiento de limitaciones temporales de velocidad en distintos puntos.",
+      "descripcion_original": "Se están produciendo retrasos en las líneas de alta velocidad Madrid-Barcelona y Madrid-Valencia por el establecimiento de limitaciones temporales de velocidad en distintos puntos.",
+      "network": "ALTA_VELOCIDAD",
+      "line_affected": null,
+      "location_type": "LINE",
+      "nodes": [],
+      "status": "YELLOW",
+      "cause_category": "INFRAESTRUCTURA",
+      "severity_level": 2,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-04 18:56:51",
       "ultima_vez_visto": null
     },
     {

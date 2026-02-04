@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-04 06:46:57",
-  "total": 104,
+  "generated_at": "2026-02-04 06:51:51",
+  "total": 105,
   "incidencias": [
     {
       "id": "0d19554330c1cc59e1ce83390090f028",
@@ -42,7 +42,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 06:30:29",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "040caf23963a08f3c1efe0c66b93bb60",
@@ -63,7 +63,7 @@
       "end_date": null,
       "transport_backup": null,
       "primera_vez_visto": "2026-02-04 06:36:40",
-      "ultima_vez_visto": null
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
@@ -102,7 +102,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-03 13:56:51",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "f8594bffc85a721d665d24ab8d8d78b6",
@@ -746,7 +746,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "50eac931a153dfa29106d9d2ee1ed18c",
@@ -847,7 +847,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "8a08ca3f9f0f451cba22916957bb2db2",
@@ -973,7 +973,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "64cc4a367269f89abb38586f8b4d92d7",
@@ -1021,7 +1021,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-03 21:21:39",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "0aed1d1899063cd81c6a0d6b79d21d64",
@@ -1084,7 +1084,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -1231,7 +1231,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "03d857bbf558373d544649ae37108ac3",
@@ -1294,7 +1294,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -1315,7 +1315,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -1357,7 +1357,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -1378,7 +1378,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -1403,7 +1403,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -1442,7 +1442,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -1463,7 +1463,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -1484,7 +1484,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -1502,7 +1502,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "67b3082b7a54712e36a9b87b88c32949",
@@ -1851,7 +1851,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-03 12:47:20",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "bb38870b149efde35af79224e4b9319e",
@@ -1893,7 +1893,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-03 16:06:45",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "404b3c3e0732974c412af446f2309572",
@@ -1935,7 +1935,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-03 18:21:43",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "d9644ee67b87cfb8718074b610028a3c",
@@ -1994,7 +1994,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 05:26:40",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "97dfb3b6a428851fcfd0d47d9917975f",
@@ -2015,7 +2015,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 05:31:57",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "57b35e72d662437e22efbd27f16b615b",
@@ -2037,6 +2037,27 @@
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 05:36:49",
       "ultima_vez_visto": "2026-02-04 06:06:43"
+    },
+    {
+      "id": "3c5687de788c8660e55c9658698dacec",
+      "summary": "Retrasos en Cercanías Asturias y Media Distancia Oviedo-Santander",
+      "description": "Debido a una incidencia en la señalización entre Oviedo y Colloto, los trenes del núcleo de cercanías de Asturias que circulan por estas estaciones y los trenes de media distancia Oviedo-Santander están registrando retrasos. Personal de Adif está trabajando para solucionar esta incidencia a la mayor brevedad.",
+      "descripcion_original": "Debido a una incidencia en la señalización entre Oviedo y Colloto, los trenes del núcleo de cercanías de Asturias que circulan por estas estaciones y los trenes de media distancia Oviedo-Santander están registrando retrasos. Personal de Adif está trabajando para solucionar esta incidencia a la mayor brevedad.",
+      "network": "CERCANIAS_ASTURIAS",
+      "line_affected": null,
+      "location_type": "SEGMENT",
+      "nodes": [
+        "OVIEDO",
+        "COLLOTO"
+      ],
+      "status": "YELLOW",
+      "cause_category": "INFRAESTRUCTURA",
+      "severity_level": 2,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-04 06:51:49",
+      "ultima_vez_visto": null
     },
     {
       "id": "a0f012a0b0831c3b99cf35146cc284bd",
@@ -2118,7 +2139,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 06:06:43",
-      "ultima_vez_visto": "2026-02-04 06:36:40"
+      "ultima_vez_visto": "2026-02-04 06:51:49"
     },
     {
       "id": "61f4a497fa0c1a53cf5324095ad2a649",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-04 06:26:26",
-  "total": 102,
+  "generated_at": "2026-02-04 06:30:31",
+  "total": 103,
   "incidencias": [
     {
       "id": "0d19554330c1cc59e1ce83390090f028",
@@ -22,6 +22,27 @@
       "transport_backup": null,
       "primera_vez_visto": "2026-01-28 10:06:48",
       "ultima_vez_visto": "2026-01-28 10:41:39"
+    },
+    {
+      "id": "ea41eafa68f06576ecdb5309156eb375",
+      "summary": "Interrupción AV Málaga-Antequera por desprendimiento.",
+      "description": "Se encuentra interrumpida la circulación de alta velocidad entre Málaga y Antequera debido a un desprendimiento de tierras en Álora. Se ha movilizado al personal necesario para restablecer la circulación lo antes posible.",
+      "descripcion_original": "Se encuentra interrumpida la circulación de alta velocidad entre Málaga y Antequera debido a un desprendimiento de tierras en Álora. Se ha movilizado al personal necesario para restablecer la circulación lo antes posible.",
+      "network": "ALTA_VELOCIDAD",
+      "line_affected": null,
+      "location_type": "SEGMENT",
+      "nodes": [
+        "MALAGA-MARIA ZAMBRANO",
+        "ANTEQUERA-SANTA ANA"
+      ],
+      "status": "RED",
+      "cause_category": "INFRAESTRUCTURA",
+      "severity_level": 5,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-04 06:30:29",
+      "ultima_vez_visto": null
     },
     {
       "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
@@ -60,7 +81,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-03 13:56:51",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "f8594bffc85a721d665d24ab8d8d78b6",
@@ -704,7 +725,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "50eac931a153dfa29106d9d2ee1ed18c",
@@ -805,7 +826,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "8a08ca3f9f0f451cba22916957bb2db2",
@@ -931,7 +952,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "64cc4a367269f89abb38586f8b4d92d7",
@@ -979,7 +1000,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-03 21:21:39",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "0aed1d1899063cd81c6a0d6b79d21d64",
@@ -1042,7 +1063,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -1189,7 +1210,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "03d857bbf558373d544649ae37108ac3",
@@ -1252,7 +1273,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -1273,7 +1294,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -1315,7 +1336,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -1336,7 +1357,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -1361,7 +1382,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -1400,7 +1421,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -1421,7 +1442,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -1442,7 +1463,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -1460,7 +1481,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "67b3082b7a54712e36a9b87b88c32949",
@@ -1809,7 +1830,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-03 12:47:20",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "bb38870b149efde35af79224e4b9319e",
@@ -1851,7 +1872,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-03 16:06:45",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "404b3c3e0732974c412af446f2309572",
@@ -1893,7 +1914,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-03 18:21:43",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "d9644ee67b87cfb8718074b610028a3c",
@@ -1952,7 +1973,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 05:26:40",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "97dfb3b6a428851fcfd0d47d9917975f",
@@ -1973,7 +1994,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 05:31:57",
-      "ultima_vez_visto": "2026-02-04 06:06:43"
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "57b35e72d662437e22efbd27f16b615b",
@@ -2076,7 +2097,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 06:06:43",
-      "ultima_vez_visto": null
+      "ultima_vez_visto": "2026-02-04 06:30:29"
     },
     {
       "id": "61f4a497fa0c1a53cf5324095ad2a649",

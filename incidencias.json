@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-05 13:02:02",
-  "total": 134,
+  "generated_at": "2026-02-05 13:06:57",
+  "total": 135,
   "incidencias": [
     {
       "id": "0d19554330c1cc59e1ce83390090f028",
@@ -126,7 +126,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-05 09:17:00",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
@@ -192,7 +192,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "e1c5c4359ec0160693c4ff4dda2b4536",
@@ -829,7 +829,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "1a4837e644f67d45c7dfaba5d3ccbe05",
@@ -867,7 +867,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-05 06:02:04",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "0a719901389c745a06300642e3d10ba9",
@@ -909,7 +909,28 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-05 11:22:04",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
+    },
+    {
+      "id": "eeed67600e360f9cff7bdfcf26db46a8",
+      "summary": "Interrupción entre Guadalmez y Almadenejos por electrificación",
+      "description": "Se encuentra interrumpida la circulación entre Guadalmez-Los Pedroches y Almadenejos-Almadén (tramo Mérida-Puertollano) por una incidencia relacionada con los sistemas de electrificación. Personal de Adif está trabajando para solventar esta incidencia lo antes posible.",
+      "descripcion_original": "Se encuentra interrumpida la circulación entre Guadalmez-Los Pedroches y Almadenejos-Almadén (tramo Mérida-Puertollano) por una incidencia relacionada con los sistemas de electrificación. Personal de Adif está trabajando para solventar esta incidencia lo antes posible.",
+      "network": "MEDIA_DISTANCIA",
+      "line_affected": "Mérida-Puertollano",
+      "location_type": "SEGMENT",
+      "nodes": [
+        "GUADALMEZ-LOS PEDROCHES",
+        "ALMADENEJOS-ALMADEN"
+      ],
+      "status": "RED",
+      "cause_category": "INFRAESTRUCTURA",
+      "severity_level": 4,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-05 13:06:55",
+      "ultima_vez_visto": null
     },
     {
       "id": "b1b9a0bc08071b87e8ce10068209e731",
@@ -1075,7 +1096,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "50eac931a153dfa29106d9d2ee1ed18c",
@@ -1197,7 +1218,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-29 07:31:57",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "8a08ca3f9f0f451cba22916957bb2db2",
@@ -1323,7 +1344,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "715d1bb23621dbbdb812fe4afad49446",
@@ -1359,7 +1380,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-05 13:02:00",
-      "ultima_vez_visto": null
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "64cc4a367269f89abb38586f8b4d92d7",
@@ -1596,7 +1617,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -1806,7 +1827,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -1827,7 +1848,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -1869,7 +1890,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -1911,7 +1932,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -1936,7 +1957,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -1975,7 +1996,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -1996,7 +2017,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -2038,7 +2059,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -2650,7 +2671,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-05 13:02:00"
+      "ultima_vez_visto": "2026-02-05 13:06:55"
     },
     {
       "id": "a0f012a0b0831c3b99cf35146cc284bd",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-09 10:56:45",
-  "total": 162,
+  "generated_at": "2026-02-09 11:02:14",
+  "total": 163,
   "incidencias": [
     {
       "id": "0d19554330c1cc59e1ce83390090f028",
@@ -252,7 +252,40 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-09 07:11:42",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
+    },
+    {
+      "id": "534db5bb4c4c551d58452bf54ffc2c8a",
+      "summary": "Interrupción por temporal en Cercanías Sevilla y otras líneas de Andalucía.",
+      "description": "Por daños en la infraestructura provocados por el temporal en el ámbito de Andalucía, se encuentra interrumpido el servicio en los siguientes tramos: Cercanías Sevilla: Interrumpida la circulación en la línea C1 entre Lora del Río y Los Rosales y entre Las Cabezas de San Juan y Lebrija, y en la C3 en todo su recorrido. Línea Sevilla-Zafra: Interrumpida la circulación entre Los Rosales y Villanueva del Río-Minas. Línea Córdoba-Bobadilla-Algeciras: Interrumpido el tráfico ferroviario en los tramos Valchillón-Torres Cabrera y Algeciras-Bobadilla. Línea Córdoba – Linares-Baeza: Interrumpida la circulación. Línea Huelva-Zafra: Interrumpido el servicio entre Jabugo-Galaroza y Valdelamusa. Línea de AV Antequera-Santa Ana – Málaga-María Zambrano: Interrumpido el tráfico ferroviario.",
+      "descripcion_original": "Por daños en la infraestructura provocados por el temporal en el ámbito de Andalucía, se encuentra interrumpido el servicio en los siguientes tramos: Cercanías Sevilla: Interrumpida la circulación en la línea C1 entre Lora del Río y Los Rosales y entre Las Cabezas de San Juan y Lebrija, y en la C3 en todo su recorrido. Línea Sevilla-Zafra: Interrumpida la circulación entre Los Rosales y Villanueva del Río-Minas. Línea Córdoba-Bobadilla-Algeciras: Interrumpido el tráfico ferroviario en los tramos Valchillón-Torres Cabrera y Algeciras-Bobadilla. Línea Córdoba – Linares-Baeza: Interrumpida la circulación. Línea Huelva-Zafra: Interrumpido el servicio entre Jabugo-Galaroza y Valdelamusa. Línea de AV Antequera-Santa Ana – Málaga-María Zambrano: Interrumpido el tráfico ferroviario.",
+      "network": "CERCANIAS_SEVILLA",
+      "line_affected": null,
+      "location_type": "SEGMENT",
+      "nodes": [
+        "LORA DEL RIO",
+        "LOS ROSALES",
+        "LAS CABEZAS DE SAN JUAN",
+        "LEBRIJA",
+        "LOS ROSALES",
+        "VILLANUEVA DEL RIO-MINAS",
+        "VALCHILLON",
+        "TORRES CABRERA",
+        "ALGECIRAS",
+        "BOBADILLA",
+        "JABUGO-GALAROZA",
+        "VALDELAMUSA",
+        "ANTEQUERA-SANTA ANA",
+        "MALAGA-MARIA ZAMBRANO"
+      ],
+      "status": "RED",
+      "cause_category": "METEO",
+      "severity_level": 5,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-09 11:02:10",
+      "ultima_vez_visto": null
     },
     {
       "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
@@ -318,7 +351,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "1b14a816af17ca72d5213abc92bf95f3",
@@ -1163,7 +1196,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-05 16:37:22",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "d4b4e04e69bbe3b59394b8c2ff077977",
@@ -1306,7 +1339,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-09 08:51:47",
-      "ultima_vez_visto": null
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "b1b9a0bc08071b87e8ce10068209e731",
@@ -1759,7 +1792,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "715d1bb23621dbbdb812fe4afad49446",
@@ -2050,7 +2083,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -2281,7 +2314,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -2302,7 +2335,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -2344,7 +2377,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -2386,7 +2419,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -2411,7 +2444,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -2450,7 +2483,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -2471,7 +2504,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -2513,7 +2546,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -3125,7 +3158,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-09 08:51:47"
+      "ultima_vez_visto": "2026-02-09 11:02:10"
     },
     {
       "id": "f53eb048e6d6449955a5f07c2359fe14",

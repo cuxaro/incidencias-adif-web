@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-09 07:36:37",
-  "total": 160,
+  "generated_at": "2026-02-09 07:41:49",
+  "total": 161,
   "incidencias": [
     {
       "id": "0d19554330c1cc59e1ce83390090f028",
@@ -231,7 +231,7 @@
       "end_date": null,
       "transport_backup": null,
       "primera_vez_visto": "2026-02-06 08:49:32",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "accd022a6aeede4392a3b73dc20fb2bf",
@@ -252,7 +252,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-09 07:11:42",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "fd5b8d1519b379e74f2f8a38e39ca26b",
@@ -318,7 +318,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "1b14a816af17ca72d5213abc92bf95f3",
@@ -411,7 +411,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-09 07:21:49",
-      "ultima_vez_visto": null
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "f8594bffc85a721d665d24ab8d8d78b6",
@@ -1163,7 +1163,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-05 16:37:22",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "d4b4e04e69bbe3b59394b8c2ff077977",
@@ -1269,6 +1269,26 @@
       "transport_backup": false,
       "primera_vez_visto": "2026-02-06 13:16:56",
       "ultima_vez_visto": "2026-02-06 17:31:54"
+    },
+    {
+      "id": "12160e8665c33cadf1794e1378bed232",
+      "summary": "Interrupción R8 y R3 Rodalies en Rubí Can Vallhonrat",
+      "description": "Se encuentra interrumpida la circulación en la línea R8 del núcleo de rodalies de Catalunya a su paso por Rubí Can Vallhonrat. También se encuentra interrumpido el tráfico en la línea R3. Para más información: @ rodalies Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+      "descripcion_original": "Se encuentra interrumpida la circulación en la línea R8 del núcleo de rodalies de Catalunya a su paso por Rubí Can Vallhonrat. También se encuentra interrumpido el tráfico en la línea R3. Para más información: @ rodalies Enlace externo al portal.Se abrirá en una pestaña nueva. .",
+      "network": "RODALIES_CATALUNYA",
+      "line_affected": "R8",
+      "location_type": "STATION",
+      "nodes": [
+        "RUBI CAN VALLHONRAT"
+      ],
+      "status": "RED",
+      "cause_category": "INFRAESTRUCTURA",
+      "severity_level": 4,
+      "start_date": null,
+      "end_date": null,
+      "transport_backup": false,
+      "primera_vez_visto": "2026-02-09 07:41:47",
+      "ultima_vez_visto": null
     },
     {
       "id": "b1b9a0bc08071b87e8ce10068209e731",
@@ -1721,7 +1741,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "715d1bb23621dbbdb812fe4afad49446",
@@ -2012,7 +2032,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "8f30dcf08276b18072839a90062d2018",
@@ -2243,7 +2263,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "e7e7c67e5310c69ac776d4d84a9155c0",
@@ -2264,7 +2284,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "ecb24693e76ae68084acb958dbab358e",
@@ -2306,7 +2326,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -2348,7 +2368,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -2373,7 +2393,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "807fd1196bdea5628e682b57a6e9e226",
@@ -2412,7 +2432,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -2433,7 +2453,7 @@
       "end_date": null,
       "transport_backup": true,
       "primera_vez_visto": "2026-01-26 14:08:42",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "93c7b1fadf4e1e10b1ef1921e13e7006",
@@ -2475,7 +2495,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "08f35c6a5740745163b99445bdb73307",
@@ -3087,7 +3107,7 @@
       "end_date": null,
       "transport_backup": false,
       "primera_vez_visto": "2026-02-04 18:56:51",
-      "ultima_vez_visto": "2026-02-09 07:21:49"
+      "ultima_vez_visto": "2026-02-09 07:41:47"
     },
     {
       "id": "f53eb048e6d6449955a5f07c2359fe14",

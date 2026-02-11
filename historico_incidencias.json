@@ -428,7 +428,7 @@
             "is_active": true,
             "transport_backup": false
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "d5497d8e48aa6da7da13825e5d822e83": {
         "id": "d5497d8e48aa6da7da13825e5d822e83",
@@ -480,7 +480,7 @@
             "is_active": true,
             "transport_backup": true
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "ecb24693e76ae68084acb958dbab358e": {
         "id": "ecb24693e76ae68084acb958dbab358e",
@@ -558,7 +558,7 @@
             "is_active": true,
             "transport_backup": true
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "0dc376e78ae04b6849e846b9ed96d722": {
         "id": "0dc376e78ae04b6849e846b9ed96d722",
@@ -584,7 +584,7 @@
             "is_active": true,
             "transport_backup": true
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "f02c8e2a55f8abbf9f3d9aedac19747a": {
         "id": "f02c8e2a55f8abbf9f3d9aedac19747a",
@@ -610,7 +610,7 @@
             "is_active": true,
             "transport_backup": true
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "f365b90ed0165cd355d71a95caaf87ba": {
         "id": "f365b90ed0165cd355d71a95caaf87ba",
@@ -633,7 +633,7 @@
             "is_active": true,
             "transport_backup": true
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "7c42e9b26e09f5c313afdecd1d91cf75": {
         "id": "7c42e9b26e09f5c313afdecd1d91cf75",
@@ -659,7 +659,7 @@
             "is_active": true,
             "transport_backup": true
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "56e390832708d4b6e576c00dbd4bff44": {
         "id": "56e390832708d4b6e576c00dbd4bff44",
@@ -689,7 +689,7 @@
             "is_active": true,
             "transport_backup": true
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "61f4a497fa0c1a53cf5324095ad2a649": {
         "id": "61f4a497fa0c1a53cf5324095ad2a649",
@@ -4055,7 +4055,7 @@
             "is_active": true,
             "transport_backup": false
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "7e0d1130d04d61920398ab8ad11e3cf7": {
         "id": "7e0d1130d04d61920398ab8ad11e3cf7",
@@ -4087,7 +4087,7 @@
             "is_active": true,
             "transport_backup": true
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "08acbe335c163b39d666bc3d105f3af1": {
         "id": "08acbe335c163b39d666bc3d105f3af1",
@@ -4139,7 +4139,7 @@
             "is_active": true,
             "transport_backup": true
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "18f722b51c991f32eaf5892935563c5e": {
         "id": "18f722b51c991f32eaf5892935563c5e",
@@ -4165,7 +4165,7 @@
             "is_active": true,
             "transport_backup": false
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "9567ef162e0411ec01853649015617a5": {
         "id": "9567ef162e0411ec01853649015617a5",
@@ -5419,7 +5419,7 @@
             "is_active": true,
             "transport_backup": false
         },
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "c0cadbeb7787a397e6bf9d586135ef70": {
         "id": "c0cadbeb7787a397e6bf9d586135ef70",
@@ -5498,7 +5498,7 @@
         "descripcion": "Esta interrumpido el tráfico ferroviario en el tramo Riba-Roja d'Ebre - Reus (línea Zaragoza-Reus). Para más información: @rodalies Enlace externo al portal.Se abrirá en una pestaña nueva. .",
         "primera_vez_visto": "2026-02-10 13:36:55",
         "estado": "Activa",
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "7d76ae405642785fbacd7e357fb35ef8": {
         "id": "7d76ae405642785fbacd7e357fb35ef8",
@@ -5555,7 +5555,7 @@
         "descripcion": "Está interrumpida la circulación de la línea de ancho métrico Bilbao-Santander por la salida de un eje de un tren sin viajeros, tras arrollar un árbol caído sobre la infraestructura, entre Traslaviña y Karrantza. Se ha movilizado al personal necesario para restablecer la circulación lo antes posible.",
         "primera_vez_visto": "2026-02-11 06:11:45",
         "estado": "Activa",
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "a3a182ca90c053cc13b6dbe016de5f64": {
         "id": "a3a182ca90c053cc13b6dbe016de5f64",
@@ -5576,7 +5576,7 @@
         "descripcion": "Por daños en la infraestructura provocados por el temporal en el ámbito de Andalucía, se encuentra interrumpido el servicio en los siguientes tramos: Cercanías Sevilla: Interrumpida la circulación en la C3 en todo su recorrido. Línea Sevilla-Zafra: Interrumpida la circulación entre Los Rosales y Villanueva del Río-Minas. Línea Córdoba-Bobadilla-Algeciras: Interrumpido el tráfico ferroviario en los tramos Valchillón-Torres Cabrera y Algeciras-Bobadilla. Línea Córdoba – Linares-Baeza: Interrumpida la circulación entre Córdoba y Linares-Baeza. Línea Huelva-Zafra: Interrumpido el servicio entre Jabugo-Galaroza y Valdelamusa. Línea de AV Antequera-Santa Ana – Málaga-María Zambrano: Interrumpido el tráfico ferroviario. Personal de Adif continúa trabajando para restablecer la circulación en los tramos afectados a la mayor brevedad posible.",
         "primera_vez_visto": "2026-02-11 10:56:36",
         "estado": "Activa",
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "79df67fc68c7059553d04a5a6c07e715": {
         "id": "79df67fc68c7059553d04a5a6c07e715",
@@ -5590,12 +5590,18 @@
         "descripcion": "Se encuentra interrumpida la circulación entre Vigo-Guillarei-Ourense debido a las condiciones meteorológicas en Galicia.",
         "primera_vez_visto": "2026-02-11 11:16:54",
         "estado": "Activa",
-        "ultima_vez_visto": "2026-02-11 11:42:36"
+        "ultima_vez_visto": "2026-02-11 11:46:40"
     },
     "850217d647b50678b9adca65f576f10e": {
         "id": "850217d647b50678b9adca65f576f10e",
         "descripcion": "Los trenes de las líneas C3 y C4 del núcleo de cercanías de Madrid recuperan gradualmente su frecuencia de paso habitual, una vez solucionada la incidencia entre Nuevos Ministerios y Atocha que la mantenía interrumpida.",
         "primera_vez_visto": "2026-02-11 11:42:36",
+        "estado": "Activa"
+    },
+    "010e5a2fa3bdf0b48f2672ac54f37d1c": {
+        "id": "010e5a2fa3bdf0b48f2672ac54f37d1c",
+        "descripcion": "Los trenes de las líneas C3 y C4 del núcleo de cercanías de Madrid recuperan gradualmente su frecuencia de paso habitual, una vez solucionada la incidencia entre Nuevos Ministerios y Atocha que mantenía interrumpida la circulación entre ambas estaciones.",
+        "primera_vez_visto": "2026-02-11 11:46:40",
         "estado": "Activa"
     }
 }
